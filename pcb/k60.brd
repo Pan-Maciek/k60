@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="4.75" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mm" altunit="mm"/>
+<grid distance="19" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -75,206 +75,206 @@
 </layers>
 <board>
 <plain>
-<hole x="-4.75" y="-52.25" drill="3"/>
-<hole x="-4.75" y="-61.75" drill="4"/>
-<hole x="28.5" y="-52.25" drill="3"/>
-<hole x="28.5" y="-61.75" drill="4"/>
-<hole x="232.75" y="-52.25" drill="3"/>
-<hole x="232.75" y="-61.75" drill="4"/>
-<hole x="266" y="-61.75" drill="4"/>
-<hole x="266" y="-52.25" drill="3"/>
-<hole x="237.5" y="-42.75" drill="4"/>
-<hole x="237.5" y="-33.25" drill="3"/>
-<hole x="266" y="-33.25" drill="3"/>
-<hole x="266" y="-42.75" drill="4"/>
-<hole x="242.25" y="4.75" drill="3"/>
-<hole x="242.25" y="-4.75" drill="4"/>
-<hole x="270.75" y="4.75" drill="3"/>
-<hole x="270.75" y="-4.75" drill="4"/>
-<wire x1="-9.5" y1="9.5" x2="275.5" y2="9.5" width="0.1524" layer="20"/>
-<wire x1="275.5" y1="9.5" x2="275.5" y2="-85.5" width="0.1524" layer="20"/>
-<wire x1="275.5" y1="-85.5" x2="-9.5" y2="-85.5" width="0.1524" layer="20"/>
-<wire x1="-9.5" y1="-85.5" x2="-9.5" y2="9.5" width="0.1524" layer="20"/>
-<wire x1="-9.5" y1="-9.5" x2="9.5" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="9.5" y1="-9.5" x2="9.5" y2="9.5" width="0.1524" layer="51"/>
-<wire x1="9.5" y1="9.5" x2="-9.5" y2="9.5" width="0.1524" layer="51"/>
-<wire x1="-9.5" y1="9.5" x2="-9.5" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="9.5" y1="-9.5" x2="19" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="19" y1="-9.5" x2="28.5" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="28.5" y1="-9.5" x2="28.5" y2="9.5" width="0.1524" layer="51"/>
-<wire x1="28.5" y1="9.5" x2="9.5" y2="9.5" width="0.1524" layer="51"/>
-<wire x1="28.5" y1="-9.5" x2="38" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="38" y1="-9.5" x2="47.5" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="47.5" y1="-9.5" x2="47.5" y2="9.5" width="0.1524" layer="51"/>
-<wire x1="47.5" y1="9.5" x2="28.5" y2="9.5" width="0.1524" layer="51"/>
-<wire x1="47.5" y1="-9.5" x2="57" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="57" y1="-9.5" x2="66.5" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="66.5" y1="-9.5" x2="66.5" y2="9.5" width="0.1524" layer="51"/>
-<wire x1="66.5" y1="9.5" x2="47.5" y2="9.5" width="0.1524" layer="51"/>
-<wire x1="66.5" y1="-9.5" x2="76" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="76" y1="-9.5" x2="85.5" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="85.5" y1="-9.5" x2="85.5" y2="9.5" width="0.1524" layer="51"/>
-<wire x1="85.5" y1="9.5" x2="66.5" y2="9.5" width="0.1524" layer="51"/>
-<wire x1="85.5" y1="-9.5" x2="95" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="95" y1="-9.5" x2="104.5" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="104.5" y1="-9.5" x2="104.5" y2="9.5" width="0.1524" layer="51"/>
-<wire x1="104.5" y1="9.5" x2="85.5" y2="9.5" width="0.1524" layer="51"/>
-<wire x1="104.5" y1="-9.5" x2="114" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="114" y1="-9.5" x2="123.5" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="123.5" y1="-9.5" x2="123.5" y2="9.5" width="0.1524" layer="51"/>
-<wire x1="123.5" y1="9.5" x2="104.5" y2="9.5" width="0.1524" layer="51"/>
-<wire x1="123.5" y1="-9.5" x2="133" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="133" y1="-9.5" x2="142.5" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="142.5" y1="-9.5" x2="142.5" y2="9.5" width="0.1524" layer="51"/>
-<wire x1="142.5" y1="9.5" x2="123.5" y2="9.5" width="0.1524" layer="51"/>
-<wire x1="142.5" y1="-9.5" x2="152" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="152" y1="-9.5" x2="161.5" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="161.5" y1="-9.5" x2="161.5" y2="9.5" width="0.1524" layer="51"/>
-<wire x1="161.5" y1="9.5" x2="142.5" y2="9.5" width="0.1524" layer="51"/>
-<wire x1="161.5" y1="-9.5" x2="171" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="171" y1="-9.5" x2="180.5" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="180.5" y1="-9.5" x2="180.5" y2="9.5" width="0.1524" layer="51"/>
-<wire x1="180.5" y1="9.5" x2="161.5" y2="9.5" width="0.1524" layer="51"/>
-<wire x1="180.5" y1="-9.5" x2="190" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="190" y1="-9.5" x2="199.5" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="199.5" y1="-9.5" x2="199.5" y2="9.5" width="0.1524" layer="51"/>
-<wire x1="199.5" y1="9.5" x2="180.5" y2="9.5" width="0.1524" layer="51"/>
-<wire x1="199.5" y1="-9.5" x2="209" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="209" y1="-9.5" x2="218.5" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="218.5" y1="-9.5" x2="218.5" y2="9.5" width="0.1524" layer="51"/>
-<wire x1="218.5" y1="9.5" x2="199.5" y2="9.5" width="0.1524" layer="51"/>
-<wire x1="218.5" y1="-9.5" x2="228" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="228" y1="-9.5" x2="237.5" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="237.5" y1="-9.5" x2="237.5" y2="9.5" width="0.1524" layer="51"/>
-<wire x1="237.5" y1="9.5" x2="218.5" y2="9.5" width="0.1524" layer="51"/>
-<wire x1="237.5" y1="-9.5" x2="247" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="247" y1="-9.5" x2="275.5" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="275.5" y1="-9.5" x2="275.5" y2="9.5" width="0.1524" layer="51"/>
-<wire x1="275.5" y1="9.5" x2="237.5" y2="9.5" width="0.1524" layer="51"/>
-<wire x1="-9.5" y1="-9.5" x2="-9.5" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="-9.5" y1="-28.5" x2="19" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="19" y1="-28.5" x2="19" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="19" y1="-28.5" x2="23.75" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="23.75" y1="-28.5" x2="38" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="38" y1="-28.5" x2="38" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="38" y1="-28.5" x2="42.75" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="42.75" y1="-28.5" x2="57" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="57" y1="-28.5" x2="57" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="57" y1="-28.5" x2="61.75" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="61.75" y1="-28.5" x2="76" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="76" y1="-28.5" x2="76" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="76" y1="-28.5" x2="80.75" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="80.75" y1="-28.5" x2="95" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="95" y1="-28.5" x2="95" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="95" y1="-28.5" x2="99.75" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="99.75" y1="-28.5" x2="114" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="114" y1="-28.5" x2="114" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="114" y1="-28.5" x2="118.75" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="118.75" y1="-28.5" x2="133" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="133" y1="-28.5" x2="133" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="133" y1="-28.5" x2="137.75" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="137.75" y1="-28.5" x2="152" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="152" y1="-28.5" x2="152" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="152" y1="-28.5" x2="156.75" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="156.75" y1="-28.5" x2="171" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="171" y1="-28.5" x2="171" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="171" y1="-28.5" x2="175.75" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="175.75" y1="-28.5" x2="190" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="190" y1="-28.5" x2="190" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="190" y1="-28.5" x2="194.75" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="194.75" y1="-28.5" x2="209" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="209" y1="-28.5" x2="209" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="209" y1="-28.5" x2="213.75" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="213.75" y1="-28.5" x2="228" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="228" y1="-28.5" x2="228" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="228" y1="-28.5" x2="232.75" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="232.75" y1="-28.5" x2="247" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="247" y1="-28.5" x2="247" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="247" y1="-28.5" x2="275.5" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="275.5" y1="-28.5" x2="275.5" y2="-9.5" width="0.1524" layer="51"/>
-<wire x1="-9.5" y1="-28.5" x2="-9.5" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="-9.5" y1="-47.5" x2="23.75" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="23.75" y1="-47.5" x2="23.75" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="23.75" y1="-47.5" x2="33.25" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="33.25" y1="-47.5" x2="42.75" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="42.75" y1="-47.5" x2="42.75" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="42.75" y1="-47.5" x2="52.25" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="52.25" y1="-47.5" x2="61.75" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="61.75" y1="-47.5" x2="61.75" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="61.75" y1="-47.5" x2="71.25" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="71.25" y1="-47.5" x2="80.75" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="80.75" y1="-47.5" x2="80.75" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="80.75" y1="-47.5" x2="90.25" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="90.25" y1="-47.5" x2="99.75" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="99.75" y1="-47.5" x2="99.75" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="99.75" y1="-47.5" x2="109.25" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="109.25" y1="-47.5" x2="118.75" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="118.75" y1="-47.5" x2="118.75" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="118.75" y1="-47.5" x2="128.25" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="128.25" y1="-47.5" x2="137.75" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="137.75" y1="-47.5" x2="137.75" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="137.75" y1="-47.5" x2="147.25" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="147.25" y1="-47.5" x2="156.75" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="156.75" y1="-47.5" x2="156.75" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="156.75" y1="-47.5" x2="166.25" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="166.25" y1="-47.5" x2="175.75" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="175.75" y1="-47.5" x2="175.75" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="175.75" y1="-47.5" x2="185.25" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="185.25" y1="-47.5" x2="194.75" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="194.75" y1="-47.5" x2="194.75" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="194.75" y1="-47.5" x2="204.25" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="204.25" y1="-47.5" x2="213.75" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="213.75" y1="-47.5" x2="213.75" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="213.75" y1="-47.5" x2="223.25" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="223.25" y1="-47.5" x2="232.75" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="232.75" y1="-47.5" x2="232.75" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="232.75" y1="-47.5" x2="275.5" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="275.5" y1="-47.5" x2="275.5" y2="-28.5" width="0.1524" layer="51"/>
-<wire x1="-9.5" y1="-47.5" x2="-9.5" y2="-66.5" width="0.1524" layer="51"/>
-<wire x1="-9.5" y1="-66.5" x2="14.25" y2="-66.5" width="0.1524" layer="51"/>
-<wire x1="14.25" y1="-66.5" x2="33.25" y2="-66.5" width="0.1524" layer="51"/>
-<wire x1="33.25" y1="-66.5" x2="33.25" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="33.25" y1="-66.5" x2="38" y2="-66.5" width="0.1524" layer="51"/>
-<wire x1="38" y1="-66.5" x2="52.25" y2="-66.5" width="0.1524" layer="51"/>
-<wire x1="52.25" y1="-66.5" x2="52.25" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="52.25" y1="-66.5" x2="71.25" y2="-66.5" width="0.1524" layer="51"/>
-<wire x1="71.25" y1="-66.5" x2="71.25" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="71.25" y1="-66.5" x2="90.25" y2="-66.5" width="0.1524" layer="51"/>
-<wire x1="90.25" y1="-66.5" x2="90.25" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="90.25" y1="-66.5" x2="109.25" y2="-66.5" width="0.1524" layer="51"/>
-<wire x1="109.25" y1="-66.5" x2="109.25" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="109.25" y1="-66.5" x2="128.25" y2="-66.5" width="0.1524" layer="51"/>
-<wire x1="128.25" y1="-66.5" x2="128.25" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="128.25" y1="-66.5" x2="147.25" y2="-66.5" width="0.1524" layer="51"/>
-<wire x1="147.25" y1="-66.5" x2="147.25" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="147.25" y1="-66.5" x2="166.25" y2="-66.5" width="0.1524" layer="51"/>
-<wire x1="166.25" y1="-66.5" x2="166.25" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="166.25" y1="-66.5" x2="180.5" y2="-66.5" width="0.1524" layer="51"/>
-<wire x1="180.5" y1="-66.5" x2="185.25" y2="-66.5" width="0.1524" layer="51"/>
-<wire x1="185.25" y1="-66.5" x2="185.25" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="185.25" y1="-66.5" x2="204.25" y2="-66.5" width="0.1524" layer="51"/>
-<wire x1="204.25" y1="-66.5" x2="204.25" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="204.25" y1="-66.5" x2="223.25" y2="-66.5" width="0.1524" layer="51"/>
-<wire x1="223.25" y1="-66.5" x2="223.25" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="223.25" y1="-66.5" x2="228" y2="-66.5" width="0.1524" layer="51"/>
-<wire x1="228" y1="-66.5" x2="251.75" y2="-66.5" width="0.1524" layer="51"/>
-<wire x1="251.75" y1="-66.5" x2="275.5" y2="-66.5" width="0.1524" layer="51"/>
-<wire x1="275.5" y1="-66.5" x2="275.5" y2="-47.5" width="0.1524" layer="51"/>
-<wire x1="-9.5" y1="-66.5" x2="-9.5" y2="-85.5" width="0.1524" layer="51"/>
-<wire x1="-9.5" y1="-85.5" x2="14.25" y2="-85.5" width="0.1524" layer="51"/>
-<wire x1="14.25" y1="-85.5" x2="14.25" y2="-66.5" width="0.1524" layer="51"/>
-<wire x1="14.25" y1="-85.5" x2="38" y2="-85.5" width="0.1524" layer="51"/>
-<wire x1="38" y1="-85.5" x2="38" y2="-66.5" width="0.1524" layer="51"/>
-<wire x1="38" y1="-85.5" x2="180.5" y2="-85.5" width="0.1524" layer="51"/>
-<wire x1="180.5" y1="-85.5" x2="180.5" y2="-66.5" width="0.1524" layer="51"/>
-<wire x1="180.5" y1="-85.5" x2="204.25" y2="-85.5" width="0.1524" layer="51"/>
-<wire x1="204.25" y1="-85.5" x2="204.25" y2="-66.5" width="0.1524" layer="51"/>
-<wire x1="204.25" y1="-85.5" x2="228" y2="-85.5" width="0.1524" layer="51"/>
-<wire x1="228" y1="-85.5" x2="228" y2="-66.5" width="0.1524" layer="51"/>
-<wire x1="228" y1="-85.5" x2="251.75" y2="-85.5" width="0.1524" layer="51"/>
-<wire x1="251.75" y1="-85.5" x2="251.75" y2="-66.5" width="0.1524" layer="51"/>
-<wire x1="251.75" y1="-85.5" x2="275.5" y2="-85.5" width="0.1524" layer="51"/>
-<wire x1="275.5" y1="-85.5" x2="275.5" y2="-66.5" width="0.1524" layer="51"/>
+<hole x="14.25" y="42.75" drill="3"/>
+<hole x="14.25" y="33.25" drill="4"/>
+<hole x="47.5" y="42.75" drill="3"/>
+<hole x="47.5" y="33.25" drill="4"/>
+<hole x="251.75" y="42.75" drill="3"/>
+<hole x="251.75" y="33.25" drill="4"/>
+<hole x="285" y="33.25" drill="4"/>
+<hole x="285" y="42.75" drill="3"/>
+<hole x="256.5" y="52.25" drill="4"/>
+<hole x="256.5" y="61.75" drill="3"/>
+<hole x="285" y="61.75" drill="3"/>
+<hole x="285" y="52.25" drill="4"/>
+<hole x="261.25" y="99.75" drill="3"/>
+<hole x="261.25" y="90.25" drill="4"/>
+<hole x="289.75" y="99.75" drill="3"/>
+<hole x="289.75" y="90.25" drill="4"/>
+<wire x1="9.5" y1="104.5" x2="294.5" y2="104.5" width="0.1524" layer="20"/>
+<wire x1="294.5" y1="104.5" x2="294.5" y2="9.5" width="0.1524" layer="20"/>
+<wire x1="294.5" y1="9.5" x2="9.5" y2="9.5" width="0.1524" layer="20"/>
+<wire x1="9.5" y1="9.5" x2="9.5" y2="104.5" width="0.1524" layer="20"/>
+<wire x1="9.5" y1="85.5" x2="28.5" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="28.5" y1="85.5" x2="28.5" y2="104.5" width="0.1524" layer="51"/>
+<wire x1="28.5" y1="104.5" x2="9.5" y2="104.5" width="0.1524" layer="51"/>
+<wire x1="9.5" y1="104.5" x2="9.5" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="28.5" y1="85.5" x2="38" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="38" y1="85.5" x2="47.5" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="47.5" y1="85.5" x2="47.5" y2="104.5" width="0.1524" layer="51"/>
+<wire x1="47.5" y1="104.5" x2="28.5" y2="104.5" width="0.1524" layer="51"/>
+<wire x1="47.5" y1="85.5" x2="57" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="57" y1="85.5" x2="66.5" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="66.5" y1="85.5" x2="66.5" y2="104.5" width="0.1524" layer="51"/>
+<wire x1="66.5" y1="104.5" x2="47.5" y2="104.5" width="0.1524" layer="51"/>
+<wire x1="66.5" y1="85.5" x2="76" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="76" y1="85.5" x2="85.5" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="85.5" y1="85.5" x2="85.5" y2="104.5" width="0.1524" layer="51"/>
+<wire x1="85.5" y1="104.5" x2="66.5" y2="104.5" width="0.1524" layer="51"/>
+<wire x1="85.5" y1="85.5" x2="95" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="95" y1="85.5" x2="104.5" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="104.5" y1="85.5" x2="104.5" y2="104.5" width="0.1524" layer="51"/>
+<wire x1="104.5" y1="104.5" x2="85.5" y2="104.5" width="0.1524" layer="51"/>
+<wire x1="104.5" y1="85.5" x2="114" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="114" y1="85.5" x2="123.5" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="123.5" y1="85.5" x2="123.5" y2="104.5" width="0.1524" layer="51"/>
+<wire x1="123.5" y1="104.5" x2="104.5" y2="104.5" width="0.1524" layer="51"/>
+<wire x1="123.5" y1="85.5" x2="133" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="133" y1="85.5" x2="142.5" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="142.5" y1="85.5" x2="142.5" y2="104.5" width="0.1524" layer="51"/>
+<wire x1="142.5" y1="104.5" x2="123.5" y2="104.5" width="0.1524" layer="51"/>
+<wire x1="142.5" y1="85.5" x2="152" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="152" y1="85.5" x2="161.5" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="161.5" y1="85.5" x2="161.5" y2="104.5" width="0.1524" layer="51"/>
+<wire x1="161.5" y1="104.5" x2="142.5" y2="104.5" width="0.1524" layer="51"/>
+<wire x1="161.5" y1="85.5" x2="171" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="171" y1="85.5" x2="180.5" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="180.5" y1="85.5" x2="180.5" y2="104.5" width="0.1524" layer="51"/>
+<wire x1="180.5" y1="104.5" x2="161.5" y2="104.5" width="0.1524" layer="51"/>
+<wire x1="180.5" y1="85.5" x2="190" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="190" y1="85.5" x2="199.5" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="199.5" y1="85.5" x2="199.5" y2="104.5" width="0.1524" layer="51"/>
+<wire x1="199.5" y1="104.5" x2="180.5" y2="104.5" width="0.1524" layer="51"/>
+<wire x1="199.5" y1="85.5" x2="209" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="209" y1="85.5" x2="218.5" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="218.5" y1="85.5" x2="218.5" y2="104.5" width="0.1524" layer="51"/>
+<wire x1="218.5" y1="104.5" x2="199.5" y2="104.5" width="0.1524" layer="51"/>
+<wire x1="218.5" y1="85.5" x2="228" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="228" y1="85.5" x2="237.5" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="237.5" y1="85.5" x2="237.5" y2="104.5" width="0.1524" layer="51"/>
+<wire x1="237.5" y1="104.5" x2="218.5" y2="104.5" width="0.1524" layer="51"/>
+<wire x1="237.5" y1="85.5" x2="247" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="247" y1="85.5" x2="256.5" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="256.5" y1="85.5" x2="256.5" y2="104.5" width="0.1524" layer="51"/>
+<wire x1="256.5" y1="104.5" x2="237.5" y2="104.5" width="0.1524" layer="51"/>
+<wire x1="256.5" y1="85.5" x2="266" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="266" y1="85.5" x2="294.5" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="294.5" y1="85.5" x2="294.5" y2="104.5" width="0.1524" layer="51"/>
+<wire x1="294.5" y1="104.5" x2="256.5" y2="104.5" width="0.1524" layer="51"/>
+<wire x1="9.5" y1="85.5" x2="9.5" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="9.5" y1="66.5" x2="38" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="38" y1="66.5" x2="38" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="38" y1="66.5" x2="42.75" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="42.75" y1="66.5" x2="57" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="57" y1="66.5" x2="57" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="57" y1="66.5" x2="61.75" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="61.75" y1="66.5" x2="76" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="76" y1="66.5" x2="76" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="76" y1="66.5" x2="80.75" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="80.75" y1="66.5" x2="95" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="95" y1="66.5" x2="95" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="95" y1="66.5" x2="99.75" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="99.75" y1="66.5" x2="114" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="114" y1="66.5" x2="114" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="114" y1="66.5" x2="118.75" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="118.75" y1="66.5" x2="133" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="133" y1="66.5" x2="133" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="133" y1="66.5" x2="137.75" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="137.75" y1="66.5" x2="152" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="152" y1="66.5" x2="152" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="152" y1="66.5" x2="156.75" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="156.75" y1="66.5" x2="171" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="171" y1="66.5" x2="171" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="171" y1="66.5" x2="175.75" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="175.75" y1="66.5" x2="190" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="190" y1="66.5" x2="190" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="190" y1="66.5" x2="194.75" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="194.75" y1="66.5" x2="209" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="209" y1="66.5" x2="209" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="209" y1="66.5" x2="213.75" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="213.75" y1="66.5" x2="228" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="228" y1="66.5" x2="228" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="228" y1="66.5" x2="232.75" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="232.75" y1="66.5" x2="247" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="247" y1="66.5" x2="247" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="247" y1="66.5" x2="251.75" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="251.75" y1="66.5" x2="266" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="266" y1="66.5" x2="266" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="266" y1="66.5" x2="294.5" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="294.5" y1="66.5" x2="294.5" y2="85.5" width="0.1524" layer="51"/>
+<wire x1="9.5" y1="66.5" x2="9.5" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="9.5" y1="47.5" x2="42.75" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="42.75" y1="47.5" x2="42.75" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="42.75" y1="47.5" x2="52.25" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="52.25" y1="47.5" x2="61.75" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="61.75" y1="47.5" x2="61.75" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="61.75" y1="47.5" x2="71.25" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="71.25" y1="47.5" x2="80.75" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="80.75" y1="47.5" x2="80.75" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="80.75" y1="47.5" x2="90.25" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="90.25" y1="47.5" x2="99.75" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="99.75" y1="47.5" x2="99.75" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="99.75" y1="47.5" x2="109.25" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="109.25" y1="47.5" x2="118.75" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="118.75" y1="47.5" x2="118.75" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="118.75" y1="47.5" x2="128.25" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="128.25" y1="47.5" x2="137.75" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="137.75" y1="47.5" x2="137.75" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="137.75" y1="47.5" x2="147.25" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="147.25" y1="47.5" x2="156.75" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="156.75" y1="47.5" x2="156.75" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="156.75" y1="47.5" x2="166.25" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="166.25" y1="47.5" x2="175.75" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="175.75" y1="47.5" x2="175.75" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="175.75" y1="47.5" x2="185.25" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="185.25" y1="47.5" x2="194.75" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="194.75" y1="47.5" x2="194.75" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="194.75" y1="47.5" x2="204.25" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="204.25" y1="47.5" x2="213.75" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="213.75" y1="47.5" x2="213.75" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="213.75" y1="47.5" x2="223.25" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="223.25" y1="47.5" x2="232.75" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="232.75" y1="47.5" x2="232.75" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="232.75" y1="47.5" x2="242.25" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="242.25" y1="47.5" x2="251.75" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="251.75" y1="47.5" x2="251.75" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="251.75" y1="47.5" x2="294.5" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="294.5" y1="47.5" x2="294.5" y2="66.5" width="0.1524" layer="51"/>
+<wire x1="9.5" y1="47.5" x2="9.5" y2="28.5" width="0.1524" layer="51"/>
+<wire x1="9.5" y1="28.5" x2="33.25" y2="28.5" width="0.1524" layer="51"/>
+<wire x1="33.25" y1="28.5" x2="52.25" y2="28.5" width="0.1524" layer="51"/>
+<wire x1="52.25" y1="28.5" x2="52.25" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="52.25" y1="28.5" x2="57" y2="28.5" width="0.1524" layer="51"/>
+<wire x1="57" y1="28.5" x2="71.25" y2="28.5" width="0.1524" layer="51"/>
+<wire x1="71.25" y1="28.5" x2="71.25" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="71.25" y1="28.5" x2="90.25" y2="28.5" width="0.1524" layer="51"/>
+<wire x1="90.25" y1="28.5" x2="90.25" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="90.25" y1="28.5" x2="109.25" y2="28.5" width="0.1524" layer="51"/>
+<wire x1="109.25" y1="28.5" x2="109.25" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="109.25" y1="28.5" x2="128.25" y2="28.5" width="0.1524" layer="51"/>
+<wire x1="128.25" y1="28.5" x2="128.25" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="128.25" y1="28.5" x2="147.25" y2="28.5" width="0.1524" layer="51"/>
+<wire x1="147.25" y1="28.5" x2="147.25" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="147.25" y1="28.5" x2="166.25" y2="28.5" width="0.1524" layer="51"/>
+<wire x1="166.25" y1="28.5" x2="166.25" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="166.25" y1="28.5" x2="185.25" y2="28.5" width="0.1524" layer="51"/>
+<wire x1="185.25" y1="28.5" x2="185.25" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="185.25" y1="28.5" x2="199.5" y2="28.5" width="0.1524" layer="51"/>
+<wire x1="199.5" y1="28.5" x2="204.25" y2="28.5" width="0.1524" layer="51"/>
+<wire x1="204.25" y1="28.5" x2="204.25" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="204.25" y1="28.5" x2="223.25" y2="28.5" width="0.1524" layer="51"/>
+<wire x1="223.25" y1="28.5" x2="223.25" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="223.25" y1="28.5" x2="242.25" y2="28.5" width="0.1524" layer="51"/>
+<wire x1="242.25" y1="28.5" x2="242.25" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="242.25" y1="28.5" x2="247" y2="28.5" width="0.1524" layer="51"/>
+<wire x1="247" y1="28.5" x2="270.75" y2="28.5" width="0.1524" layer="51"/>
+<wire x1="270.75" y1="28.5" x2="294.5" y2="28.5" width="0.1524" layer="51"/>
+<wire x1="294.5" y1="28.5" x2="294.5" y2="47.5" width="0.1524" layer="51"/>
+<wire x1="9.5" y1="28.5" x2="9.5" y2="9.5" width="0.1524" layer="51"/>
+<wire x1="9.5" y1="9.5" x2="33.25" y2="9.5" width="0.1524" layer="51"/>
+<wire x1="33.25" y1="9.5" x2="33.25" y2="28.5" width="0.1524" layer="51"/>
+<wire x1="33.25" y1="9.5" x2="57" y2="9.5" width="0.1524" layer="51"/>
+<wire x1="57" y1="9.5" x2="57" y2="28.5" width="0.1524" layer="51"/>
+<wire x1="57" y1="9.5" x2="199.5" y2="9.5" width="0.1524" layer="51"/>
+<wire x1="199.5" y1="9.5" x2="199.5" y2="28.5" width="0.1524" layer="51"/>
+<wire x1="199.5" y1="9.5" x2="223.25" y2="9.5" width="0.1524" layer="51"/>
+<wire x1="223.25" y1="9.5" x2="223.25" y2="28.5" width="0.1524" layer="51"/>
+<wire x1="223.25" y1="9.5" x2="247" y2="9.5" width="0.1524" layer="51"/>
+<wire x1="247" y1="9.5" x2="247" y2="28.5" width="0.1524" layer="51"/>
+<wire x1="247" y1="9.5" x2="270.75" y2="9.5" width="0.1524" layer="51"/>
+<wire x1="270.75" y1="9.5" x2="270.75" y2="28.5" width="0.1524" layer="51"/>
+<wire x1="270.75" y1="9.5" x2="294.5" y2="9.5" width="0.1524" layer="51"/>
+<wire x1="294.5" y1="9.5" x2="294.5" y2="28.5" width="0.1524" layer="51"/>
 </plain>
 <libraries>
 <library name="cherry">
@@ -999,249 +999,249 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="1,1" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="0" y="0" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="21.59" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="21.59" y="-11.43" size="1.778" layer="27" display="off"/>
+<element name="1,1" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="19" y="95" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="40.59" y="83.57" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="40.59" y="83.57" size="1.778" layer="27" display="off"/>
 </element>
-<element name="10,1" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="171" y="0" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="192.59" y="-33.02" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="192.59" y="-33.02" size="1.778" layer="27" display="off"/>
+<element name="10,1" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="190" y="95" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="211.59" y="61.98" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="211.59" y="61.98" size="1.778" layer="27" display="off"/>
 </element>
-<element name="11,1" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="190" y="0" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="228.1" y="-33.02" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="228.1" y="-33.02" size="1.778" layer="27" display="off"/>
+<element name="11,1" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="209" y="95" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="247.1" y="61.98" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="247.1" y="61.98" size="1.778" layer="27" display="off"/>
 </element>
-<element name="12,1" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="209" y="0" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="263.61" y="-33.02" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="263.61" y="-33.02" size="1.778" layer="27" display="off"/>
+<element name="12,1" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="228" y="95" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="282.61" y="61.98" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="282.61" y="61.98" size="1.778" layer="27" display="off"/>
 </element>
-<element name="13,1" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="228" y="0" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="299.12" y="-33.02" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="299.12" y="-33.02" size="1.778" layer="27" display="off"/>
+<element name="13,1" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="247" y="95" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="318.12" y="61.98" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="318.12" y="61.98" size="1.778" layer="27" display="off"/>
 </element>
-<element name="14,1" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="256.5" y="0" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="344.13" y="-33.02" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="344.13" y="-33.02" size="1.778" layer="27" display="off"/>
+<element name="14,1" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="275.5" y="95" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="363.13" y="61.98" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="363.13" y="61.98" size="1.778" layer="27" display="off"/>
 </element>
-<element name="1,2" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="4.75" y="-19" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="108.89" y="-52.02" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="108.89" y="-52.02" size="1.778" layer="27" display="off"/>
+<element name="1,2" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="23.75" y="76" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="127.89" y="42.98" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="127.89" y="42.98" size="1.778" layer="27" display="off"/>
 </element>
-<element name="2,2" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="28.5" y="-19" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="149.15" y="-52.02" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="149.15" y="-52.02" size="1.778" layer="27" display="off"/>
+<element name="2,2" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="47.5" y="76" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="168.15" y="42.98" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="168.15" y="42.98" size="1.778" layer="27" display="off"/>
 </element>
-<element name="3,2" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="47.5" y="-19" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="184.66" y="-52.02" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="184.66" y="-52.02" size="1.778" layer="27" display="off"/>
+<element name="3,2" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="66.5" y="76" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="203.66" y="42.98" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="203.66" y="42.98" size="1.778" layer="27" display="off"/>
 </element>
-<element name="4,2" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="66.5" y="-19" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="220.17" y="-52.02" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="220.17" y="-52.02" size="1.778" layer="27" display="off"/>
+<element name="4,2" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="85.5" y="76" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="239.17" y="42.98" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="239.17" y="42.98" size="1.778" layer="27" display="off"/>
 </element>
-<element name="5,2" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="85.5" y="-19" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="107.09" y="-73.61" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="107.09" y="-73.61" size="1.778" layer="27" display="off"/>
+<element name="5,2" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="104.5" y="76" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="126.09" y="21.39" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="126.09" y="21.39" size="1.778" layer="27" display="off"/>
 </element>
-<element name="2,1" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="19" y="0" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="57.1" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="57.1" y="-11.43" size="1.778" layer="27" display="off"/>
+<element name="2,1" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="38" y="95" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="76.1" y="83.57" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="76.1" y="83.57" size="1.778" layer="27" display="off"/>
 </element>
-<element name="6,2" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="104.5" y="-19" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="142.6" y="-73.61" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="142.6" y="-73.61" size="1.778" layer="27" display="off"/>
+<element name="6,2" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="123.5" y="76" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="161.6" y="21.39" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="161.6" y="21.39" size="1.778" layer="27" display="off"/>
 </element>
-<element name="7,2" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="123.5" y="-19" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="178.11" y="-73.61" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="178.11" y="-73.61" size="1.778" layer="27" display="off"/>
+<element name="7,2" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="142.5" y="76" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="197.11" y="21.39" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="197.11" y="21.39" size="1.778" layer="27" display="off"/>
 </element>
-<element name="8,2" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="142.5" y="-19" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="213.62" y="-73.61" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="213.62" y="-73.61" size="1.778" layer="27" display="off"/>
+<element name="8,2" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="161.5" y="76" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="232.62" y="21.39" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="232.62" y="21.39" size="1.778" layer="27" display="off"/>
 </element>
-<element name="9,2" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="161.5" y="-19" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="249.13" y="-73.61" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="249.13" y="-73.61" size="1.778" layer="27" display="off"/>
+<element name="9,2" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="180.5" y="76" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="268.13" y="21.39" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="268.13" y="21.39" size="1.778" layer="27" display="off"/>
 </element>
-<element name="10,2" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="180.5" y="-19" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="284.64" y="-73.61" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="284.64" y="-73.61" size="1.778" layer="27" display="off"/>
+<element name="10,2" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="199.5" y="76" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="303.64" y="21.39" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="303.64" y="21.39" size="1.778" layer="27" display="off"/>
 </element>
-<element name="11,2" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="199.5" y="-19" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="320.15" y="-73.61" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="320.15" y="-73.61" size="1.778" layer="27" display="off"/>
+<element name="11,2" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="218.5" y="76" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="339.15" y="21.39" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="339.15" y="21.39" size="1.778" layer="27" display="off"/>
 </element>
-<element name="12,2" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="218.5" y="-19" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="355.66" y="-73.61" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="355.66" y="-73.61" size="1.778" layer="27" display="off"/>
+<element name="12,2" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="237.5" y="76" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="374.66" y="21.39" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="374.66" y="21.39" size="1.778" layer="27" display="off"/>
 </element>
-<element name="13,2" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="237.5" y="-19" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="391.17" y="-73.61" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="391.17" y="-73.61" size="1.778" layer="27" display="off"/>
+<element name="13,2" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="256.5" y="76" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="410.17" y="21.39" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="410.17" y="21.39" size="1.778" layer="27" display="off"/>
 </element>
-<element name="14,2" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="261.25" y="-19" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="282.84" y="-95.2" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="282.84" y="-95.2" size="1.778" layer="27" display="off"/>
+<element name="14,2" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="280.25" y="76" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="301.84" y="-0.2" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="301.84" y="-0.2" size="1.778" layer="27" display="off"/>
 </element>
-<element name="1,3" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="7.125" y="-38" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="45.225" y="-114.2" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="45.225" y="-114.2" size="1.778" layer="27" display="off"/>
+<element name="1,3" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="26.125" y="57" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="64.225" y="-19.2" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="64.225" y="-19.2" size="1.778" layer="27" display="off"/>
 </element>
-<element name="3,1" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="38" y="0" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="92.61" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="92.61" y="-11.43" size="1.778" layer="27" display="off"/>
+<element name="3,1" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="57" y="95" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="111.61" y="83.57" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="111.61" y="83.57" size="1.778" layer="27" display="off"/>
 </element>
-<element name="2,3" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="33.25" y="-38" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="87.86" y="-114.2" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="87.86" y="-114.2" size="1.778" layer="27" display="off"/>
+<element name="2,3" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="52.25" y="57" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="106.86" y="-19.2" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="106.86" y="-19.2" size="1.778" layer="27" display="off"/>
 </element>
-<element name="3,3" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="52.25" y="-38" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="123.37" y="-114.2" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="123.37" y="-114.2" size="1.778" layer="27" display="off"/>
+<element name="3,3" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="71.25" y="57" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="142.37" y="-19.2" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="142.37" y="-19.2" size="1.778" layer="27" display="off"/>
 </element>
-<element name="4,3" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="71.25" y="-38" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="158.88" y="-114.2" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="158.88" y="-114.2" size="1.778" layer="27" display="off"/>
+<element name="4,3" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="90.25" y="57" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="177.88" y="-19.2" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="177.88" y="-19.2" size="1.778" layer="27" display="off"/>
 </element>
-<element name="5,3" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="90.25" y="-38" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="194.39" y="-114.2" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="194.39" y="-114.2" size="1.778" layer="27" display="off"/>
+<element name="5,3" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="109.25" y="57" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="213.39" y="-19.2" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="213.39" y="-19.2" size="1.778" layer="27" display="off"/>
 </element>
-<element name="6,3" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="109.25" y="-38" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="229.9" y="-114.2" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="229.9" y="-114.2" size="1.778" layer="27" display="off"/>
+<element name="6,3" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="128.25" y="57" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="248.9" y="-19.2" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="248.9" y="-19.2" size="1.778" layer="27" display="off"/>
 </element>
-<element name="7,3" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="128.25" y="-38" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="265.41" y="-114.2" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="265.41" y="-114.2" size="1.778" layer="27" display="off"/>
+<element name="7,3" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="147.25" y="57" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="284.41" y="-19.2" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="284.41" y="-19.2" size="1.778" layer="27" display="off"/>
 </element>
-<element name="8,3" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="147.25" y="-38" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="300.92" y="-114.2" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="300.92" y="-114.2" size="1.778" layer="27" display="off"/>
+<element name="8,3" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="166.25" y="57" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="319.92" y="-19.2" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="319.92" y="-19.2" size="1.778" layer="27" display="off"/>
 </element>
-<element name="9,3" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="166.25" y="-38" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="187.84" y="-135.79" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="187.84" y="-135.79" size="1.778" layer="27" display="off"/>
+<element name="9,3" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="185.25" y="57" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="206.84" y="-40.79" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="206.84" y="-40.79" size="1.778" layer="27" display="off"/>
 </element>
-<element name="10,3" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="185.25" y="-38" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="223.35" y="-135.79" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="223.35" y="-135.79" size="1.778" layer="27" display="off"/>
+<element name="10,3" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="204.25" y="57" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="242.35" y="-40.79" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="242.35" y="-40.79" size="1.778" layer="27" display="off"/>
 </element>
-<element name="11,3" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="204.25" y="-38" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="258.86" y="-135.79" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="258.86" y="-135.79" size="1.778" layer="27" display="off"/>
+<element name="11,3" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="223.25" y="57" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="277.86" y="-40.79" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="277.86" y="-40.79" size="1.778" layer="27" display="off"/>
 </element>
-<element name="4,1" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="57" y="0" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="128.12" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="128.12" y="-11.43" size="1.778" layer="27" display="off"/>
+<element name="4,1" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="76" y="95" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="147.12" y="83.57" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="147.12" y="83.57" size="1.778" layer="27" display="off"/>
 </element>
-<element name="12,3" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="223.25" y="-38" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="294.37" y="-135.79" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="294.37" y="-135.79" size="1.778" layer="27" display="off"/>
+<element name="12,3" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="242.25" y="57" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="313.37" y="-40.79" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="313.37" y="-40.79" size="1.778" layer="27" display="off"/>
 </element>
-<element name="13,3" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="254.125" y="-38" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="341.755" y="-135.79" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="341.755" y="-135.79" size="1.778" layer="27" display="off"/>
+<element name="13,3" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="273.125" y="57" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="360.755" y="-40.79" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="360.755" y="-40.79" size="1.778" layer="27" display="off"/>
 </element>
-<element name="1,4" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="11.875" y="-57" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="116.015" y="-154.79" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="116.015" y="-154.79" size="1.778" layer="27" display="off"/>
+<element name="1,4" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="30.875" y="38" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="135.015" y="-59.79" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="135.015" y="-59.79" size="1.778" layer="27" display="off"/>
 </element>
-<element name="2,4" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="42.75" y="-57" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="163.4" y="-154.79" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="163.4" y="-154.79" size="1.778" layer="27" display="off"/>
+<element name="2,4" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="61.75" y="38" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="182.4" y="-59.79" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="182.4" y="-59.79" size="1.778" layer="27" display="off"/>
 </element>
-<element name="3,4" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="61.75" y="-57" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="198.91" y="-154.79" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="198.91" y="-154.79" size="1.778" layer="27" display="off"/>
+<element name="3,4" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="80.75" y="38" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="217.91" y="-59.79" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="217.91" y="-59.79" size="1.778" layer="27" display="off"/>
 </element>
-<element name="4,4" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="80.75" y="-57" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="234.42" y="-154.79" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="234.42" y="-154.79" size="1.778" layer="27" display="off"/>
+<element name="4,4" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="99.75" y="38" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="253.42" y="-59.79" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="253.42" y="-59.79" size="1.778" layer="27" display="off"/>
 </element>
-<element name="5,4" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="99.75" y="-57" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="121.34" y="-176.38" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="121.34" y="-176.38" size="1.778" layer="27" display="off"/>
+<element name="5,4" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="118.75" y="38" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="140.34" y="-81.38" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="140.34" y="-81.38" size="1.778" layer="27" display="off"/>
 </element>
-<element name="6,4" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="118.75" y="-57" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="156.85" y="-176.38" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="156.85" y="-176.38" size="1.778" layer="27" display="off"/>
+<element name="6,4" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="137.75" y="38" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="175.85" y="-81.38" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="175.85" y="-81.38" size="1.778" layer="27" display="off"/>
 </element>
-<element name="7,4" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="137.75" y="-57" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="192.36" y="-176.38" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="192.36" y="-176.38" size="1.778" layer="27" display="off"/>
+<element name="7,4" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="156.75" y="38" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="211.36" y="-81.38" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="211.36" y="-81.38" size="1.778" layer="27" display="off"/>
 </element>
-<element name="8,4" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="156.75" y="-57" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="227.87" y="-176.38" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="227.87" y="-176.38" size="1.778" layer="27" display="off"/>
+<element name="8,4" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="175.75" y="38" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="246.87" y="-81.38" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="246.87" y="-81.38" size="1.778" layer="27" display="off"/>
 </element>
-<element name="5,1" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="76" y="0" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="163.63" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="163.63" y="-11.43" size="1.778" layer="27" display="off"/>
+<element name="5,1" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="95" y="95" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="182.63" y="83.57" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="182.63" y="83.57" size="1.778" layer="27" display="off"/>
 </element>
-<element name="9,4" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="175.75" y="-57" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="263.38" y="-176.38" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="263.38" y="-176.38" size="1.778" layer="27" display="off"/>
+<element name="9,4" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="194.75" y="38" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="282.38" y="-81.38" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="282.38" y="-81.38" size="1.778" layer="27" display="off"/>
 </element>
-<element name="10,4" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="194.75" y="-57" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="298.89" y="-176.38" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="298.89" y="-176.38" size="1.778" layer="27" display="off"/>
+<element name="10,4" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="213.75" y="38" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="317.89" y="-81.38" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="317.89" y="-81.38" size="1.778" layer="27" display="off"/>
 </element>
-<element name="11,4" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="213.75" y="-57" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="334.4" y="-176.38" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="334.4" y="-176.38" size="1.778" layer="27" display="off"/>
+<element name="11,4" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="232.75" y="38" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="353.4" y="-81.38" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="353.4" y="-81.38" size="1.778" layer="27" display="off"/>
 </element>
-<element name="12,4" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="249.375" y="-57" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="386.535" y="-176.38" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="386.535" y="-176.38" size="1.778" layer="27" display="off"/>
+<element name="12,4" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="268.375" y="38" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="405.535" y="-81.38" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="405.535" y="-81.38" size="1.778" layer="27" display="off"/>
 </element>
-<element name="1,5" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="2.375" y="-76" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="23.965" y="-216.97" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="23.965" y="-216.97" size="1.778" layer="27" display="off"/>
+<element name="1,5" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="21.375" y="19" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="42.965" y="-121.97" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="42.965" y="-121.97" size="1.778" layer="27" display="off"/>
 </element>
-<element name="2,5" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="26.125" y="-76" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="64.225" y="-216.97" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="64.225" y="-216.97" size="1.778" layer="27" display="off"/>
+<element name="2,5" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="45.125" y="19" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="83.225" y="-121.97" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="83.225" y="-121.97" size="1.778" layer="27" display="off"/>
 </element>
-<element name="3,5" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="49.875" y="-76" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="104.485" y="-216.97" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="104.485" y="-216.97" size="1.778" layer="27" display="off"/>
+<element name="3,5" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="68.875" y="19" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="123.485" y="-121.97" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="123.485" y="-121.97" size="1.778" layer="27" display="off"/>
 </element>
-<element name="4,5" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="121.125" y="-76" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="192.245" y="-216.97" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="192.245" y="-216.97" size="1.778" layer="27" display="off"/>
+<element name="4,5" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="140.125" y="19" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="211.245" y="-121.97" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="211.245" y="-121.97" size="1.778" layer="27" display="off"/>
 </element>
-<element name="5,5" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="192.375" y="-76" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="280.005" y="-216.97" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="280.005" y="-216.97" size="1.778" layer="27" display="off"/>
+<element name="5,5" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="211.375" y="19" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="299.005" y="-121.97" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="299.005" y="-121.97" size="1.778" layer="27" display="off"/>
 </element>
-<element name="6,1" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="95" y="0" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="199.14" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="199.14" y="-11.43" size="1.778" layer="27" display="off"/>
+<element name="6,1" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="114" y="95" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="218.14" y="83.57" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="218.14" y="83.57" size="1.778" layer="27" display="off"/>
 </element>
-<element name="6,5" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="216.125" y="-76" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="320.265" y="-216.97" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="320.265" y="-216.97" size="1.778" layer="27" display="off"/>
+<element name="6,5" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="235.125" y="19" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="339.265" y="-121.97" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="339.265" y="-121.97" size="1.778" layer="27" display="off"/>
 </element>
-<element name="7,5" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="239.875" y="-76" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="360.525" y="-216.97" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="360.525" y="-216.97" size="1.778" layer="27" display="off"/>
+<element name="7,5" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="258.875" y="19" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="379.525" y="-121.97" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="379.525" y="-121.97" size="1.778" layer="27" display="off"/>
 </element>
-<element name="8,5" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="263.625" y="-76" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="400.785" y="-216.97" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="400.785" y="-216.97" size="1.778" layer="27" display="off"/>
+<element name="8,5" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="282.625" y="19" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="419.785" y="-121.97" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="419.785" y="-121.97" size="1.778" layer="27" display="off"/>
 </element>
-<element name="7,1" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="114" y="0" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="234.65" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="234.65" y="-11.43" size="1.778" layer="27" display="off"/>
+<element name="7,1" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="133" y="95" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="253.65" y="83.57" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="253.65" y="83.57" size="1.778" layer="27" display="off"/>
 </element>
-<element name="8,1" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="133" y="0" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="270.16" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="270.16" y="-11.43" size="1.778" layer="27" display="off"/>
+<element name="8,1" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="152" y="95" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="289.16" y="83.57" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="289.16" y="83.57" size="1.778" layer="27" display="off"/>
 </element>
-<element name="9,1" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="152" y="0" smashed="yes">
-<attribute name="FARNELL" value="2292961" x="305.67" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER" value="540-MX1A-11NW" x="305.67" y="-11.43" size="1.778" layer="27" display="off"/>
+<element name="9,1" library="cherry" package="CHERRY_MX" value="CHERRY_MX" x="171" y="95" smashed="yes">
+<attribute name="FARNELL" value="2292961" x="324.67" y="83.57" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="540-MX1A-11NW" x="324.67" y="83.57" size="1.778" layer="27" display="off"/>
 </element>
 <element name="D1" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-90.25" smashed="yes">
 <attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-90.25" size="1.778" layer="27" display="off"/>
@@ -1687,10 +1687,10 @@ design rules under a new name.</description>
 <contactref element="1,3" pad="S1"/>
 <contactref element="1,5" pad="S1"/>
 <contactref element="1,4" pad="S1"/>
-<wire x1="8.065" y1="-54.46" x2="-1.435" y2="-73.46" width="0" layer="19" extent="1-1"/>
-<wire x1="3.315" y1="-35.46" x2="8.065" y2="-54.46" width="0" layer="19" extent="1-1"/>
-<wire x1="0.94" y1="-16.46" x2="3.315" y2="-35.46" width="0" layer="19" extent="1-1"/>
-<wire x1="-3.81" y1="2.54" x2="0.94" y2="-16.46" width="0" layer="19" extent="1-1"/>
+<wire x1="27.065" y1="40.54" x2="17.565" y2="21.54" width="0" layer="19" extent="1-1"/>
+<wire x1="22.315" y1="59.54" x2="27.065" y2="40.54" width="0" layer="19" extent="1-1"/>
+<wire x1="19.94" y1="78.54" x2="22.315" y2="59.54" width="0" layer="19" extent="1-1"/>
+<wire x1="15.19" y1="97.54" x2="19.94" y2="78.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="COL2">
 <contactref element="2,1" pad="S1"/>
@@ -1698,10 +1698,10 @@ design rules under a new name.</description>
 <contactref element="2,2" pad="S1"/>
 <contactref element="2,3" pad="S1"/>
 <contactref element="2,4" pad="S1"/>
-<wire x1="38.94" y1="-54.46" x2="22.315" y2="-73.46" width="0" layer="19" extent="1-1"/>
-<wire x1="29.44" y1="-35.46" x2="38.94" y2="-54.46" width="0" layer="19" extent="1-1"/>
-<wire x1="24.69" y1="-16.46" x2="29.44" y2="-35.46" width="0" layer="19" extent="1-1"/>
-<wire x1="15.19" y1="2.54" x2="24.69" y2="-16.46" width="0" layer="19" extent="1-1"/>
+<wire x1="57.94" y1="40.54" x2="41.315" y2="21.54" width="0" layer="19" extent="1-1"/>
+<wire x1="48.44" y1="59.54" x2="57.94" y2="40.54" width="0" layer="19" extent="1-1"/>
+<wire x1="43.69" y1="78.54" x2="48.44" y2="59.54" width="0" layer="19" extent="1-1"/>
+<wire x1="34.19" y1="97.54" x2="43.69" y2="78.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="COL3">
 <contactref element="3,1" pad="S1"/>
@@ -1709,10 +1709,10 @@ design rules under a new name.</description>
 <contactref element="3,2" pad="S1"/>
 <contactref element="3,3" pad="S1"/>
 <contactref element="3,4" pad="S1"/>
-<wire x1="43.69" y1="-16.46" x2="34.19" y2="2.54" width="0" layer="19" extent="1-1"/>
-<wire x1="48.44" y1="-35.46" x2="43.69" y2="-16.46" width="0" layer="19" extent="1-1"/>
-<wire x1="57.94" y1="-54.46" x2="48.44" y2="-35.46" width="0" layer="19" extent="1-1"/>
-<wire x1="46.065" y1="-73.46" x2="57.94" y2="-54.46" width="0" layer="19" extent="1-1"/>
+<wire x1="62.69" y1="78.54" x2="53.19" y2="97.54" width="0" layer="19" extent="1-1"/>
+<wire x1="67.44" y1="59.54" x2="62.69" y2="78.54" width="0" layer="19" extent="1-1"/>
+<wire x1="76.94" y1="40.54" x2="67.44" y2="59.54" width="0" layer="19" extent="1-1"/>
+<wire x1="65.065" y1="21.54" x2="76.94" y2="40.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="COL4">
 <contactref element="4,1" pad="S1"/>
@@ -1720,10 +1720,10 @@ design rules under a new name.</description>
 <contactref element="4,2" pad="S1"/>
 <contactref element="4,3" pad="S1"/>
 <contactref element="4,4" pad="S1"/>
-<wire x1="62.69" y1="-16.46" x2="53.19" y2="2.54" width="0" layer="19" extent="1-1"/>
-<wire x1="67.44" y1="-35.46" x2="62.69" y2="-16.46" width="0" layer="19" extent="1-1"/>
-<wire x1="76.94" y1="-54.46" x2="67.44" y2="-35.46" width="0" layer="19" extent="1-1"/>
-<wire x1="117.315" y1="-73.46" x2="76.94" y2="-54.46" width="0" layer="19" extent="1-1"/>
+<wire x1="81.69" y1="78.54" x2="72.19" y2="97.54" width="0" layer="19" extent="1-1"/>
+<wire x1="86.44" y1="59.54" x2="81.69" y2="78.54" width="0" layer="19" extent="1-1"/>
+<wire x1="95.94" y1="40.54" x2="86.44" y2="59.54" width="0" layer="19" extent="1-1"/>
+<wire x1="136.315" y1="21.54" x2="95.94" y2="40.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="COL5">
 <contactref element="5,1" pad="S1"/>
@@ -1731,10 +1731,10 @@ design rules under a new name.</description>
 <contactref element="5,2" pad="S1"/>
 <contactref element="5,3" pad="S1"/>
 <contactref element="5,4" pad="S1"/>
-<wire x1="95.94" y1="-54.46" x2="188.565" y2="-73.46" width="0" layer="19" extent="1-1"/>
-<wire x1="86.44" y1="-35.46" x2="95.94" y2="-54.46" width="0" layer="19" extent="1-1"/>
-<wire x1="81.69" y1="-16.46" x2="86.44" y2="-35.46" width="0" layer="19" extent="1-1"/>
-<wire x1="72.19" y1="2.54" x2="81.69" y2="-16.46" width="0" layer="19" extent="1-1"/>
+<wire x1="114.94" y1="40.54" x2="207.565" y2="21.54" width="0" layer="19" extent="1-1"/>
+<wire x1="105.44" y1="59.54" x2="114.94" y2="40.54" width="0" layer="19" extent="1-1"/>
+<wire x1="100.69" y1="78.54" x2="105.44" y2="59.54" width="0" layer="19" extent="1-1"/>
+<wire x1="91.19" y1="97.54" x2="100.69" y2="78.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="COL6">
 <contactref element="6,1" pad="S1"/>
@@ -1742,10 +1742,10 @@ design rules under a new name.</description>
 <contactref element="6,2" pad="S1"/>
 <contactref element="6,3" pad="S1"/>
 <contactref element="6,4" pad="S1"/>
-<wire x1="114.94" y1="-54.46" x2="212.315" y2="-73.46" width="0" layer="19" extent="1-1"/>
-<wire x1="105.44" y1="-35.46" x2="114.94" y2="-54.46" width="0" layer="19" extent="1-1"/>
-<wire x1="100.69" y1="-16.46" x2="105.44" y2="-35.46" width="0" layer="19" extent="1-1"/>
-<wire x1="91.19" y1="2.54" x2="100.69" y2="-16.46" width="0" layer="19" extent="1-1"/>
+<wire x1="133.94" y1="40.54" x2="231.315" y2="21.54" width="0" layer="19" extent="1-1"/>
+<wire x1="124.44" y1="59.54" x2="133.94" y2="40.54" width="0" layer="19" extent="1-1"/>
+<wire x1="119.69" y1="78.54" x2="124.44" y2="59.54" width="0" layer="19" extent="1-1"/>
+<wire x1="110.19" y1="97.54" x2="119.69" y2="78.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="COL7">
 <contactref element="7,1" pad="S1"/>
@@ -1753,10 +1753,10 @@ design rules under a new name.</description>
 <contactref element="7,2" pad="S1"/>
 <contactref element="7,3" pad="S1"/>
 <contactref element="7,4" pad="S1"/>
-<wire x1="133.94" y1="-54.46" x2="236.065" y2="-73.46" width="0" layer="19" extent="1-1"/>
-<wire x1="124.44" y1="-35.46" x2="133.94" y2="-54.46" width="0" layer="19" extent="1-1"/>
-<wire x1="119.69" y1="-16.46" x2="124.44" y2="-35.46" width="0" layer="19" extent="1-1"/>
-<wire x1="110.19" y1="2.54" x2="119.69" y2="-16.46" width="0" layer="19" extent="1-1"/>
+<wire x1="152.94" y1="40.54" x2="255.065" y2="21.54" width="0" layer="19" extent="1-1"/>
+<wire x1="143.44" y1="59.54" x2="152.94" y2="40.54" width="0" layer="19" extent="1-1"/>
+<wire x1="138.69" y1="78.54" x2="143.44" y2="59.54" width="0" layer="19" extent="1-1"/>
+<wire x1="129.19" y1="97.54" x2="138.69" y2="78.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="COL8">
 <contactref element="8,1" pad="S1"/>
@@ -1764,363 +1764,363 @@ design rules under a new name.</description>
 <contactref element="8,2" pad="S1"/>
 <contactref element="8,3" pad="S1"/>
 <contactref element="8,4" pad="S1"/>
-<wire x1="152.94" y1="-54.46" x2="259.815" y2="-73.46" width="0" layer="19" extent="1-1"/>
-<wire x1="143.44" y1="-35.46" x2="152.94" y2="-54.46" width="0" layer="19" extent="1-1"/>
-<wire x1="138.69" y1="-16.46" x2="143.44" y2="-35.46" width="0" layer="19" extent="1-1"/>
-<wire x1="129.19" y1="2.54" x2="138.69" y2="-16.46" width="0" layer="19" extent="1-1"/>
+<wire x1="171.94" y1="40.54" x2="278.815" y2="21.54" width="0" layer="19" extent="1-1"/>
+<wire x1="162.44" y1="59.54" x2="171.94" y2="40.54" width="0" layer="19" extent="1-1"/>
+<wire x1="157.69" y1="78.54" x2="162.44" y2="59.54" width="0" layer="19" extent="1-1"/>
+<wire x1="148.19" y1="97.54" x2="157.69" y2="78.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="COL9">
 <contactref element="9,1" pad="S1"/>
 <contactref element="9,4" pad="S1"/>
 <contactref element="9,2" pad="S1"/>
 <contactref element="9,3" pad="S1"/>
-<wire x1="157.69" y1="-16.46" x2="148.19" y2="2.54" width="0" layer="19" extent="1-1"/>
-<wire x1="162.44" y1="-35.46" x2="157.69" y2="-16.46" width="0" layer="19" extent="1-1"/>
-<wire x1="171.94" y1="-54.46" x2="162.44" y2="-35.46" width="0" layer="19" extent="1-1"/>
+<wire x1="176.69" y1="78.54" x2="167.19" y2="97.54" width="0" layer="19" extent="1-1"/>
+<wire x1="181.44" y1="59.54" x2="176.69" y2="78.54" width="0" layer="19" extent="1-1"/>
+<wire x1="190.94" y1="40.54" x2="181.44" y2="59.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="COL10">
 <contactref element="10,1" pad="S1"/>
 <contactref element="10,4" pad="S1"/>
 <contactref element="10,2" pad="S1"/>
 <contactref element="10,3" pad="S1"/>
-<wire x1="176.69" y1="-16.46" x2="167.19" y2="2.54" width="0" layer="19" extent="1-1"/>
-<wire x1="181.44" y1="-35.46" x2="176.69" y2="-16.46" width="0" layer="19" extent="1-1"/>
-<wire x1="190.94" y1="-54.46" x2="181.44" y2="-35.46" width="0" layer="19" extent="1-1"/>
+<wire x1="195.69" y1="78.54" x2="186.19" y2="97.54" width="0" layer="19" extent="1-1"/>
+<wire x1="200.44" y1="59.54" x2="195.69" y2="78.54" width="0" layer="19" extent="1-1"/>
+<wire x1="209.94" y1="40.54" x2="200.44" y2="59.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="COL11">
 <contactref element="11,1" pad="S1"/>
 <contactref element="11,4" pad="S1"/>
 <contactref element="11,2" pad="S1"/>
 <contactref element="11,3" pad="S1"/>
-<wire x1="195.69" y1="-16.46" x2="186.19" y2="2.54" width="0" layer="19" extent="1-1"/>
-<wire x1="200.44" y1="-35.46" x2="195.69" y2="-16.46" width="0" layer="19" extent="1-1"/>
-<wire x1="209.94" y1="-54.46" x2="200.44" y2="-35.46" width="0" layer="19" extent="1-1"/>
+<wire x1="214.69" y1="78.54" x2="205.19" y2="97.54" width="0" layer="19" extent="1-1"/>
+<wire x1="219.44" y1="59.54" x2="214.69" y2="78.54" width="0" layer="19" extent="1-1"/>
+<wire x1="228.94" y1="40.54" x2="219.44" y2="59.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="COL12">
 <contactref element="12,1" pad="S1"/>
 <contactref element="12,4" pad="S1"/>
 <contactref element="12,2" pad="S1"/>
 <contactref element="12,3" pad="S1"/>
-<wire x1="214.69" y1="-16.46" x2="205.19" y2="2.54" width="0" layer="19" extent="1-1"/>
-<wire x1="219.44" y1="-35.46" x2="214.69" y2="-16.46" width="0" layer="19" extent="1-1"/>
-<wire x1="245.565" y1="-54.46" x2="219.44" y2="-35.46" width="0" layer="19" extent="1-1"/>
+<wire x1="233.69" y1="78.54" x2="224.19" y2="97.54" width="0" layer="19" extent="1-1"/>
+<wire x1="238.44" y1="59.54" x2="233.69" y2="78.54" width="0" layer="19" extent="1-1"/>
+<wire x1="264.565" y1="40.54" x2="238.44" y2="59.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="COL13">
 <contactref element="13,1" pad="S1"/>
 <contactref element="13,2" pad="S1"/>
 <contactref element="13,3" pad="S1"/>
-<wire x1="233.69" y1="-16.46" x2="224.19" y2="2.54" width="0" layer="19" extent="1-1"/>
-<wire x1="250.315" y1="-35.46" x2="233.69" y2="-16.46" width="0" layer="19" extent="1-1"/>
+<wire x1="252.69" y1="78.54" x2="243.19" y2="97.54" width="0" layer="19" extent="1-1"/>
+<wire x1="269.315" y1="59.54" x2="252.69" y2="78.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="COL14">
 <contactref element="14,1" pad="S1"/>
 <contactref element="14,2" pad="S1"/>
-<wire x1="252.69" y1="2.54" x2="257.44" y2="-16.46" width="0" layer="19" extent="1-1"/>
+<wire x1="271.69" y1="97.54" x2="276.44" y2="78.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
 <contactref element="1,1" pad="S2"/>
 <contactref element="D1" pad="A"/>
-<wire x1="2.54" y1="5.08" x2="-2.95" y2="-90.25" width="0" layer="19" extent="1-1"/>
+<wire x1="21.54" y1="100.08" x2="-2.95" y2="-90.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$16">
 <contactref element="2,1" pad="S2"/>
 <contactref element="D2" pad="A"/>
-<wire x1="21.54" y1="5.08" x2="-2.95" y2="-99.75" width="0" layer="19" extent="1-1"/>
+<wire x1="40.54" y1="100.08" x2="-2.95" y2="-99.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
 <contactref element="3,1" pad="S2"/>
 <contactref element="D3" pad="A"/>
-<wire x1="40.54" y1="5.08" x2="-2.95" y2="-109.25" width="0" layer="19" extent="1-1"/>
+<wire x1="59.54" y1="100.08" x2="-2.95" y2="-109.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18">
 <contactref element="4,1" pad="S2"/>
 <contactref element="D4" pad="A"/>
-<wire x1="59.54" y1="5.08" x2="-2.95" y2="-118.75" width="0" layer="19" extent="1-1"/>
+<wire x1="78.54" y1="100.08" x2="-2.95" y2="-118.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$19">
 <contactref element="5,1" pad="S2"/>
 <contactref element="D5" pad="A"/>
-<wire x1="78.54" y1="5.08" x2="-2.95" y2="-128.25" width="0" layer="19" extent="1-1"/>
+<wire x1="97.54" y1="100.08" x2="-2.95" y2="-128.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$20">
 <contactref element="6,1" pad="S2"/>
 <contactref element="D6" pad="A"/>
-<wire x1="97.54" y1="5.08" x2="-2.95" y2="-137.75" width="0" layer="19" extent="1-1"/>
+<wire x1="116.54" y1="100.08" x2="-2.95" y2="-137.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$21">
 <contactref element="7,1" pad="S2"/>
 <contactref element="D7" pad="A"/>
-<wire x1="116.54" y1="5.08" x2="-2.95" y2="-147.25" width="0" layer="19" extent="1-1"/>
+<wire x1="135.54" y1="100.08" x2="-2.95" y2="-147.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$22">
 <contactref element="8,1" pad="S2"/>
 <contactref element="D8" pad="A"/>
-<wire x1="135.54" y1="5.08" x2="-2.95" y2="-156.75" width="0" layer="19" extent="1-1"/>
+<wire x1="154.54" y1="100.08" x2="-2.95" y2="-156.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$23">
 <contactref element="9,1" pad="S2"/>
 <contactref element="D9" pad="A"/>
-<wire x1="154.54" y1="5.08" x2="-2.95" y2="-166.25" width="0" layer="19" extent="1-1"/>
+<wire x1="173.54" y1="100.08" x2="-2.95" y2="-166.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$24">
 <contactref element="10,1" pad="S2"/>
 <contactref element="D10" pad="A"/>
-<wire x1="-2.95" y1="-175.75" x2="173.54" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.95" y1="-175.75" x2="192.54" y2="100.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$25">
 <contactref element="11,1" pad="S2"/>
 <contactref element="D11" pad="A"/>
-<wire x1="-2.95" y1="-185.25" x2="192.54" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.95" y1="-185.25" x2="211.54" y2="100.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$26">
 <contactref element="12,1" pad="S2"/>
 <contactref element="D12" pad="A"/>
-<wire x1="-2.95" y1="-194.75" x2="211.54" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.95" y1="-194.75" x2="230.54" y2="100.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$27">
 <contactref element="13,1" pad="S2"/>
 <contactref element="D13" pad="A"/>
-<wire x1="-2.95" y1="-204.25" x2="230.54" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.95" y1="-204.25" x2="249.54" y2="100.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$28">
 <contactref element="14,1" pad="S2"/>
 <contactref element="D14" pad="A"/>
-<wire x1="259.04" y1="5.08" x2="-2.95" y2="-213.75" width="0" layer="19" extent="1-1"/>
+<wire x1="278.04" y1="100.08" x2="-2.95" y2="-213.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$29">
 <contactref element="1,2" pad="S2"/>
 <contactref element="D15" pad="A"/>
-<wire x1="7.29" y1="-13.92" x2="-2.95" y2="-223.25" width="0" layer="19" extent="1-1"/>
+<wire x1="26.29" y1="81.08" x2="-2.95" y2="-223.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$30">
 <contactref element="2,2" pad="S2"/>
 <contactref element="D16" pad="A"/>
-<wire x1="31.04" y1="-13.92" x2="-2.95" y2="-232.75" width="0" layer="19" extent="1-1"/>
+<wire x1="50.04" y1="81.08" x2="-2.95" y2="-232.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$31">
 <contactref element="3,2" pad="S2"/>
 <contactref element="D17" pad="A"/>
-<wire x1="50.04" y1="-13.92" x2="-2.95" y2="-242.25" width="0" layer="19" extent="1-1"/>
+<wire x1="69.04" y1="81.08" x2="-2.95" y2="-242.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$32">
 <contactref element="4,2" pad="S2"/>
 <contactref element="D18" pad="A"/>
-<wire x1="-2.95" y1="-251.75" x2="69.04" y2="-13.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.95" y1="-251.75" x2="88.04" y2="81.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$33">
 <contactref element="5,2" pad="S2"/>
 <contactref element="D19" pad="A"/>
-<wire x1="-2.95" y1="-261.25" x2="88.04" y2="-13.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.95" y1="-261.25" x2="107.04" y2="81.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$34">
 <contactref element="6,2" pad="S2"/>
 <contactref element="D20" pad="A"/>
-<wire x1="-2.95" y1="-270.75" x2="107.04" y2="-13.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.95" y1="-270.75" x2="126.04" y2="81.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$35">
 <contactref element="7,2" pad="S2"/>
 <contactref element="D21" pad="A"/>
-<wire x1="-2.95" y1="-280.25" x2="126.04" y2="-13.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.95" y1="-280.25" x2="145.04" y2="81.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$36">
 <contactref element="8,2" pad="S2"/>
 <contactref element="D22" pad="A"/>
-<wire x1="-2.95" y1="-289.75" x2="145.04" y2="-13.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.95" y1="-289.75" x2="164.04" y2="81.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$37">
 <contactref element="9,2" pad="S2"/>
 <contactref element="D23" pad="A"/>
-<wire x1="-2.95" y1="-299.25" x2="164.04" y2="-13.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.95" y1="-299.25" x2="183.04" y2="81.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$38">
 <contactref element="10,2" pad="S2"/>
 <contactref element="D24" pad="A"/>
-<wire x1="-2.95" y1="-308.75" x2="183.04" y2="-13.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.95" y1="-308.75" x2="202.04" y2="81.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$39">
 <contactref element="11,2" pad="S2"/>
 <contactref element="D25" pad="A"/>
-<wire x1="-2.95" y1="-318.25" x2="202.04" y2="-13.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.95" y1="-318.25" x2="221.04" y2="81.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$40">
 <contactref element="12,2" pad="S2"/>
 <contactref element="D26" pad="A"/>
-<wire x1="-2.95" y1="-327.75" x2="221.04" y2="-13.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.95" y1="-327.75" x2="240.04" y2="81.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$41">
 <contactref element="13,2" pad="S2"/>
 <contactref element="D27" pad="A"/>
-<wire x1="-2.95" y1="-337.25" x2="240.04" y2="-13.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.95" y1="-337.25" x2="259.04" y2="81.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$42">
 <contactref element="1,3" pad="S2"/>
 <contactref element="D29" pad="A"/>
-<wire x1="9.665" y1="-32.92" x2="-2.95" y2="-356.25" width="0" layer="19" extent="1-1"/>
+<wire x1="28.665" y1="62.08" x2="-2.95" y2="-356.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$43">
 <contactref element="2,3" pad="S2"/>
 <contactref element="D30" pad="A"/>
-<wire x1="35.79" y1="-32.92" x2="-2.95" y2="-365.75" width="0" layer="19" extent="1-1"/>
+<wire x1="54.79" y1="62.08" x2="-2.95" y2="-365.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$44">
 <contactref element="3,3" pad="S2"/>
 <contactref element="D31" pad="A"/>
-<wire x1="54.79" y1="-32.92" x2="-2.95" y2="-375.25" width="0" layer="19" extent="1-1"/>
+<wire x1="73.79" y1="62.08" x2="-2.95" y2="-375.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$45">
 <contactref element="4,3" pad="S2"/>
 <contactref element="D32" pad="A"/>
-<wire x1="73.79" y1="-32.92" x2="-2.95" y2="-384.75" width="0" layer="19" extent="1-1"/>
+<wire x1="92.79" y1="62.08" x2="-2.95" y2="-384.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$46">
 <contactref element="5,3" pad="S2"/>
 <contactref element="D33" pad="A"/>
-<wire x1="92.79" y1="-32.92" x2="-2.95" y2="-394.25" width="0" layer="19" extent="1-1"/>
+<wire x1="111.79" y1="62.08" x2="-2.95" y2="-394.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$47">
 <contactref element="6,3" pad="S2"/>
 <contactref element="D34" pad="A"/>
-<wire x1="111.79" y1="-32.92" x2="-2.95" y2="-403.75" width="0" layer="19" extent="1-1"/>
+<wire x1="130.79" y1="62.08" x2="-2.95" y2="-403.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$48">
 <contactref element="7,3" pad="S2"/>
 <contactref element="D35" pad="A"/>
-<wire x1="130.79" y1="-32.92" x2="-2.95" y2="-413.25" width="0" layer="19" extent="1-1"/>
+<wire x1="149.79" y1="62.08" x2="-2.95" y2="-413.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$49">
 <contactref element="8,3" pad="S2"/>
 <contactref element="D36" pad="A"/>
-<wire x1="149.79" y1="-32.92" x2="-2.95" y2="-422.75" width="0" layer="19" extent="1-1"/>
+<wire x1="168.79" y1="62.08" x2="-2.95" y2="-422.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$50">
 <contactref element="9,3" pad="S2"/>
 <contactref element="D37" pad="A"/>
-<wire x1="168.79" y1="-32.92" x2="-2.95" y2="-432.25" width="0" layer="19" extent="1-1"/>
+<wire x1="187.79" y1="62.08" x2="-2.95" y2="-432.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$51">
 <contactref element="10,3" pad="S2"/>
 <contactref element="D38" pad="A"/>
-<wire x1="187.79" y1="-32.92" x2="-2.95" y2="-441.75" width="0" layer="19" extent="1-1"/>
+<wire x1="206.79" y1="62.08" x2="-2.95" y2="-441.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$52">
 <contactref element="11,3" pad="S2"/>
 <contactref element="D39" pad="A"/>
-<wire x1="206.79" y1="-32.92" x2="-2.95" y2="-451.25" width="0" layer="19" extent="1-1"/>
+<wire x1="225.79" y1="62.08" x2="-2.95" y2="-451.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$53">
 <contactref element="12,3" pad="S2"/>
 <contactref element="D40" pad="A"/>
-<wire x1="225.79" y1="-32.92" x2="-2.95" y2="-460.75" width="0" layer="19" extent="1-1"/>
+<wire x1="244.79" y1="62.08" x2="-2.95" y2="-460.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$54">
 <contactref element="13,3" pad="S2"/>
 <contactref element="D41" pad="A"/>
-<wire x1="-2.95" y1="-470.25" x2="256.665" y2="-32.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.95" y1="-470.25" x2="275.665" y2="62.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$55">
 <contactref element="14,2" pad="S2"/>
 <contactref element="D28" pad="A"/>
-<wire x1="-2.95" y1="-346.75" x2="263.79" y2="-13.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.95" y1="-346.75" x2="282.79" y2="81.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$56">
 <contactref element="1,4" pad="S2"/>
 <contactref element="D42" pad="A"/>
-<wire x1="14.415" y1="-51.92" x2="-2.95" y2="-479.75" width="0" layer="19" extent="1-1"/>
+<wire x1="33.415" y1="43.08" x2="-2.95" y2="-479.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$57">
 <contactref element="2,4" pad="S2"/>
 <contactref element="D43" pad="A"/>
-<wire x1="45.29" y1="-51.92" x2="-2.95" y2="-489.25" width="0" layer="19" extent="1-1"/>
+<wire x1="64.29" y1="43.08" x2="-2.95" y2="-489.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$58">
 <contactref element="3,4" pad="S2"/>
 <contactref element="D44" pad="A"/>
-<wire x1="64.29" y1="-51.92" x2="-2.95" y2="-498.75" width="0" layer="19" extent="1-1"/>
+<wire x1="83.29" y1="43.08" x2="-2.95" y2="-498.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$59">
 <contactref element="4,4" pad="S2"/>
 <contactref element="D45" pad="A"/>
-<wire x1="-2.95" y1="-508.25" x2="83.29" y2="-51.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.95" y1="-508.25" x2="102.29" y2="43.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$60">
 <contactref element="5,4" pad="S2"/>
 <contactref element="D46" pad="A"/>
-<wire x1="-2.95" y1="-517.75" x2="102.29" y2="-51.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.95" y1="-517.75" x2="121.29" y2="43.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$61">
 <contactref element="6,4" pad="S2"/>
 <contactref element="D47" pad="A"/>
-<wire x1="-2.95" y1="-527.25" x2="121.29" y2="-51.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.95" y1="-527.25" x2="140.29" y2="43.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$62">
 <contactref element="7,4" pad="S2"/>
 <contactref element="D48" pad="A"/>
-<wire x1="-2.95" y1="-536.75" x2="140.29" y2="-51.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.95" y1="-536.75" x2="159.29" y2="43.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$63">
 <contactref element="8,4" pad="S2"/>
 <contactref element="D49" pad="A"/>
-<wire x1="-2.95" y1="-546.25" x2="159.29" y2="-51.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.95" y1="-546.25" x2="178.29" y2="43.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$64">
 <contactref element="9,4" pad="S2"/>
 <contactref element="D50" pad="A"/>
-<wire x1="-2.95" y1="-555.75" x2="178.29" y2="-51.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.95" y1="-555.75" x2="197.29" y2="43.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$65">
 <contactref element="10,4" pad="S2"/>
 <contactref element="D51" pad="A"/>
-<wire x1="-2.95" y1="-565.25" x2="197.29" y2="-51.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.95" y1="-565.25" x2="216.29" y2="43.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$66">
 <contactref element="11,4" pad="S2"/>
 <contactref element="D52" pad="A"/>
-<wire x1="-2.95" y1="-574.75" x2="216.29" y2="-51.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.95" y1="-574.75" x2="235.29" y2="43.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$67">
 <contactref element="12,4" pad="S2"/>
 <contactref element="D53" pad="A"/>
-<wire x1="-2.95" y1="-584.25" x2="251.915" y2="-51.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.95" y1="-584.25" x2="270.915" y2="43.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$69">
 <contactref element="1,5" pad="S2"/>
 <contactref element="D61" pad="A"/>
-<wire x1="4.915" y1="-70.92" x2="-2.95" y2="-660.25" width="0" layer="19" extent="1-1"/>
+<wire x1="23.915" y1="24.08" x2="-2.95" y2="-660.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$70">
 <contactref element="2,5" pad="S2"/>
 <contactref element="D60" pad="A"/>
-<wire x1="28.665" y1="-70.92" x2="-2.95" y2="-650.75" width="0" layer="19" extent="1-1"/>
+<wire x1="47.665" y1="24.08" x2="-2.95" y2="-650.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$71">
 <contactref element="3,5" pad="S2"/>
 <contactref element="D59" pad="A"/>
-<wire x1="52.415" y1="-70.92" x2="-2.95" y2="-641.25" width="0" layer="19" extent="1-1"/>
+<wire x1="71.415" y1="24.08" x2="-2.95" y2="-641.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$72">
 <contactref element="4,5" pad="S2"/>
 <contactref element="D58" pad="A"/>
-<wire x1="123.665" y1="-70.92" x2="-2.95" y2="-631.75" width="0" layer="19" extent="1-1"/>
+<wire x1="142.665" y1="24.08" x2="-2.95" y2="-631.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$73">
 <contactref element="5,5" pad="S2"/>
 <contactref element="D57" pad="A"/>
-<wire x1="-2.95" y1="-622.25" x2="194.915" y2="-70.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.95" y1="-622.25" x2="213.915" y2="24.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$74">
 <contactref element="6,5" pad="S2"/>
 <contactref element="D56" pad="A"/>
-<wire x1="-2.95" y1="-612.75" x2="218.665" y2="-70.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.95" y1="-612.75" x2="237.665" y2="24.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$75">
 <contactref element="7,5" pad="S2"/>
 <contactref element="D55" pad="A"/>
-<wire x1="-2.95" y1="-603.25" x2="242.415" y2="-70.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.95" y1="-603.25" x2="261.415" y2="24.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$76">
 <contactref element="8,5" pad="S2"/>
 <contactref element="D54" pad="A"/>
-<wire x1="-2.95" y1="-593.75" x2="266.165" y2="-70.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.95" y1="-593.75" x2="285.165" y2="24.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ROW1">
 <contactref element="D1" pad="C"/>
