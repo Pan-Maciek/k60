@@ -3,10 +3,10 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="19" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mm" altunit="mm"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -275,6 +275,7 @@
 <wire x1="270.75" y1="9.5" x2="270.75" y2="28.5" width="0.1524" layer="51"/>
 <wire x1="270.75" y1="9.5" x2="294.5" y2="9.5" width="0.1524" layer="51"/>
 <wire x1="294.5" y1="9.5" x2="294.5" y2="28.5" width="0.1524" layer="51"/>
+<wire x1="80" y1="9.5" x2="80" y2="28.5" width="0.1524" layer="51"/>
 </plain>
 <libraries>
 <library name="cherry">
@@ -426,36 +427,6 @@ Default shape</description>
 <text x="-2.62943125" y="-2.12858125" size="1.017709375" layer="27">&gt;VALUE</text>
 <smd name="C" x="-1.8" y="0" dx="1" dy="0.75" layer="1"/>
 <smd name="A" x="1.8" y="0" dx="1" dy="0.75" layer="1"/>
-</package>
-<package name="SOT95P280X145-6N">
-<wire x1="-0.8125" y1="1.4625" x2="0.8125" y2="1.4625" width="0.127" layer="51"/>
-<wire x1="0.8125" y1="1.4625" x2="0.8125" y2="-1.4625" width="0.127" layer="51"/>
-<wire x1="0.8125" y1="-1.4625" x2="-0.8125" y2="-1.4625" width="0.127" layer="51"/>
-<wire x1="-0.8125" y1="-1.4625" x2="-0.8125" y2="1.4625" width="0.127" layer="51"/>
-<wire x1="0.8125" y1="1.57" x2="-0.8125" y2="1.57" width="0.127" layer="21"/>
-<wire x1="0.8125" y1="-1.57" x2="-0.8125" y2="-1.57" width="0.127" layer="21"/>
-<circle x="-2.55" y="0.95" radius="0.1" width="0.2" layer="21"/>
-<circle x="-2.55" y="0.95" radius="0.1" width="0.2" layer="51"/>
-<text x="-2.00048125" y="2.00048125" size="0.609896875" layer="25">&gt;NAME</text>
-<text x="-2.00123125" y="-2.00123125" size="0.61090625" layer="27" align="top-left">&gt;VALUE</text>
-<wire x1="-2.105" y1="-1.5" x2="-1.0625" y2="-1.5" width="0.05" layer="39"/>
-<wire x1="-1.0625" y1="-1.5" x2="-1.0625" y2="-1.7125" width="0.05" layer="39"/>
-<wire x1="-1.0625" y1="-1.7125" x2="1.0625" y2="-1.7125" width="0.05" layer="39"/>
-<wire x1="1.0625" y1="-1.7125" x2="1.0625" y2="-1.5" width="0.05" layer="39"/>
-<wire x1="1.0625" y1="-1.5" x2="2.105" y2="-1.5" width="0.05" layer="39"/>
-<wire x1="2.105" y1="-1.5" x2="2.105" y2="1.5" width="0.05" layer="39"/>
-<wire x1="2.105" y1="1.5" x2="1.0625" y2="1.5" width="0.05" layer="39"/>
-<wire x1="1.0625" y1="1.5" x2="1.0625" y2="1.7125" width="0.05" layer="39"/>
-<wire x1="1.0625" y1="1.7125" x2="-1.0625" y2="1.7125" width="0.05" layer="39"/>
-<wire x1="-1.0625" y1="1.7125" x2="-1.0625" y2="1.5" width="0.05" layer="39"/>
-<wire x1="-1.0625" y1="1.5" x2="-2.105" y2="1.5" width="0.05" layer="39"/>
-<wire x1="-2.105" y1="1.5" x2="-2.105" y2="-1.5" width="0.05" layer="39"/>
-<smd name="1" x="-1.175" y="0.95" dx="1.36" dy="0.6" layer="1" roundness="15"/>
-<smd name="2" x="-1.175" y="0" dx="1.36" dy="0.6" layer="1" roundness="15"/>
-<smd name="3" x="-1.175" y="-0.95" dx="1.36" dy="0.6" layer="1" roundness="15"/>
-<smd name="4" x="1.175" y="-0.95" dx="1.36" dy="0.6" layer="1" roundness="15"/>
-<smd name="5" x="1.175" y="0" dx="1.36" dy="0.6" layer="1" roundness="15"/>
-<smd name="6" x="1.175" y="0.95" dx="1.36" dy="0.6" layer="1" roundness="15"/>
 </package>
 <package name="OSC_X322516MLB4SI">
 <wire x1="-1.25" y1="1.6" x2="1.25" y2="1.6" width="0.127" layer="51"/>
@@ -804,6 +775,120 @@ Default shape</description>
 <smd name="1" x="-0.935" y="0" dx="1" dy="1.42" layer="1" roundness="25"/>
 <smd name="2" x="0.935" y="0" dx="1" dy="1.42" layer="1" roundness="25"/>
 </package>
+<package name="SW_TS-1187A-B-A-B">
+<wire x1="2.55" y1="-2.55" x2="2.55" y2="2.55" width="0.127" layer="51"/>
+<wire x1="2.55" y1="2.55" x2="-2.55" y2="2.55" width="0.127" layer="51"/>
+<wire x1="-2.55" y1="2.55" x2="-2.55" y2="-2.55" width="0.127" layer="51"/>
+<wire x1="-2.55" y1="-2.55" x2="2.55" y2="-2.55" width="0.127" layer="51"/>
+<wire x1="2.25" y1="-2.55" x2="-2.25" y2="-2.55" width="0.127" layer="21"/>
+<wire x1="2.25" y1="2.55" x2="-2.25" y2="2.55" width="0.127" layer="21"/>
+<wire x1="-3.75" y1="2.5" x2="-3.75" y2="1.25" width="0.05" layer="39"/>
+<circle x="-4.25" y="1.875" radius="0.1" width="0.2" layer="21"/>
+<circle x="-4.25" y="1.875" radius="0.1" width="0.2" layer="51"/>
+<text x="-4" y="3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4" y="-4.2" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-2.55" y1="1.18" x2="-2.55" y2="-1.18" width="0.127" layer="21"/>
+<wire x1="2.55" y1="-1.18" x2="2.55" y2="1.18" width="0.127" layer="21"/>
+<wire x1="-2.8" y1="1.25" x2="-2.8" y2="-1.25" width="0.05" layer="39"/>
+<wire x1="-3.75" y1="1.25" x2="-2.8" y2="1.25" width="0.05" layer="39"/>
+<wire x1="-3.75" y1="-1.25" x2="-2.8" y2="-1.25" width="0.05" layer="39"/>
+<wire x1="-2.8" y1="2.8" x2="-2.8" y2="2.5" width="0.05" layer="39"/>
+<wire x1="-3.75" y1="2.5" x2="-2.8" y2="2.5" width="0.05" layer="39"/>
+<wire x1="2.8" y1="2.8" x2="-2.8" y2="2.8" width="0.05" layer="39"/>
+<wire x1="3.75" y1="-2.5" x2="3.75" y2="-1.25" width="0.05" layer="39"/>
+<wire x1="2.8" y1="-2.8" x2="2.8" y2="-2.5" width="0.05" layer="39"/>
+<wire x1="3.75" y1="-2.5" x2="2.8" y2="-2.5" width="0.05" layer="39"/>
+<wire x1="-2.8" y1="-2.8" x2="2.8" y2="-2.8" width="0.05" layer="39"/>
+<wire x1="3.75" y1="2.5" x2="3.75" y2="1.25" width="0.05" layer="39"/>
+<wire x1="2.8" y1="1.25" x2="2.8" y2="-1.25" width="0.05" layer="39"/>
+<wire x1="3.75" y1="1.25" x2="2.8" y2="1.25" width="0.05" layer="39"/>
+<wire x1="3.75" y1="-1.25" x2="2.8" y2="-1.25" width="0.05" layer="39"/>
+<wire x1="2.8" y1="2.8" x2="2.8" y2="2.5" width="0.05" layer="39"/>
+<wire x1="3.75" y1="2.5" x2="2.8" y2="2.5" width="0.05" layer="39"/>
+<wire x1="-3.75" y1="-2.5" x2="-3.75" y2="-1.25" width="0.05" layer="39"/>
+<wire x1="-2.8" y1="-2.8" x2="-2.8" y2="-2.5" width="0.05" layer="39"/>
+<wire x1="-3.75" y1="-2.5" x2="-2.8" y2="-2.5" width="0.05" layer="39"/>
+<smd name="A" x="-3" y="1.875" dx="1" dy="0.75" layer="1"/>
+<smd name="B" x="3" y="1.875" dx="1" dy="0.75" layer="1"/>
+<smd name="C" x="-3" y="-1.875" dx="1" dy="0.75" layer="1"/>
+<smd name="D" x="3" y="-1.875" dx="1" dy="0.75" layer="1"/>
+</package>
+<package name="RESC3115X65N">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-2.26" y1="1.14" x2="2.26" y2="1.14" width="0.05" layer="39"/>
+<wire x1="2.26" y1="1.14" x2="2.26" y2="-1.14" width="0.05" layer="39"/>
+<wire x1="2.26" y1="-1.14" x2="-2.26" y2="-1.14" width="0.05" layer="39"/>
+<wire x1="-2.26" y1="-1.14" x2="-2.26" y2="1.14" width="0.05" layer="39"/>
+<wire x1="-1.65" y1="0.88" x2="1.65" y2="0.88" width="0.127" layer="51"/>
+<wire x1="-1.65" y1="-0.88" x2="1.65" y2="-0.88" width="0.127" layer="51"/>
+<text x="-2.3404" y="1.33805" size="0.610921875" layer="25">&gt;NAME</text>
+<text x="-2.44711875" y="-2.23558125" size="0.611796875" layer="27">&gt;VALUE</text>
+<wire x1="1.65" y1="0.88" x2="1.65" y2="-0.88" width="0.127" layer="51"/>
+<wire x1="-1.65" y1="0.88" x2="-1.65" y2="-0.88" width="0.127" layer="51"/>
+<wire x1="-1.55" y1="1.065" x2="1.55" y2="1.065" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="-1.065" x2="1.55" y2="-1.065" width="0.127" layer="21"/>
+<smd name="1" x="-1.465" y="0" dx="1.09" dy="1.77" layer="1" roundness="14"/>
+<smd name="2" x="1.54" y="0" dx="0.94" dy="1.77" layer="1" roundness="14"/>
+</package>
+<package name="SOT95P280X145-6N">
+<wire x1="-0.8125" y1="1.4625" x2="0.8125" y2="1.4625" width="0.127" layer="51"/>
+<wire x1="0.8125" y1="1.4625" x2="0.8125" y2="-1.4625" width="0.127" layer="51"/>
+<wire x1="0.8125" y1="-1.4625" x2="-0.8125" y2="-1.4625" width="0.127" layer="51"/>
+<wire x1="-0.8125" y1="-1.4625" x2="-0.8125" y2="1.4625" width="0.127" layer="51"/>
+<wire x1="0.8125" y1="1.57" x2="-0.8125" y2="1.57" width="0.127" layer="21"/>
+<wire x1="0.8125" y1="-1.57" x2="-0.8125" y2="-1.57" width="0.127" layer="21"/>
+<circle x="-2.55" y="0.95" radius="0.1" width="0.2" layer="21"/>
+<circle x="-2.55" y="0.95" radius="0.1" width="0.2" layer="51"/>
+<text x="-2.00048125" y="2.00048125" size="0.609896875" layer="25">&gt;NAME</text>
+<text x="-2.00123125" y="-2.00123125" size="0.61090625" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="-2.105" y1="-1.5" x2="-1.0625" y2="-1.5" width="0.05" layer="39"/>
+<wire x1="-1.0625" y1="-1.5" x2="-1.0625" y2="-1.7125" width="0.05" layer="39"/>
+<wire x1="-1.0625" y1="-1.7125" x2="1.0625" y2="-1.7125" width="0.05" layer="39"/>
+<wire x1="1.0625" y1="-1.7125" x2="1.0625" y2="-1.5" width="0.05" layer="39"/>
+<wire x1="1.0625" y1="-1.5" x2="2.105" y2="-1.5" width="0.05" layer="39"/>
+<wire x1="2.105" y1="-1.5" x2="2.105" y2="1.5" width="0.05" layer="39"/>
+<wire x1="2.105" y1="1.5" x2="1.0625" y2="1.5" width="0.05" layer="39"/>
+<wire x1="1.0625" y1="1.5" x2="1.0625" y2="1.7125" width="0.05" layer="39"/>
+<wire x1="1.0625" y1="1.7125" x2="-1.0625" y2="1.7125" width="0.05" layer="39"/>
+<wire x1="-1.0625" y1="1.7125" x2="-1.0625" y2="1.5" width="0.05" layer="39"/>
+<wire x1="-1.0625" y1="1.5" x2="-2.105" y2="1.5" width="0.05" layer="39"/>
+<wire x1="-2.105" y1="1.5" x2="-2.105" y2="-1.5" width="0.05" layer="39"/>
+<smd name="1" x="-1.175" y="0.95" dx="1.36" dy="0.6" layer="1" roundness="15"/>
+<smd name="2" x="-1.175" y="0" dx="1.36" dy="0.6" layer="1" roundness="15"/>
+<smd name="3" x="-1.175" y="-0.95" dx="1.36" dy="0.6" layer="1" roundness="15"/>
+<smd name="4" x="1.175" y="-0.95" dx="1.36" dy="0.6" layer="1" roundness="15"/>
+<smd name="5" x="1.175" y="0" dx="1.36" dy="0.6" layer="1" roundness="15"/>
+<smd name="6" x="1.175" y="0.95" dx="1.36" dy="0.6" layer="1" roundness="15"/>
+</package>
+<package name="CAPC2012X135N">
+<text x="-1.66" y="-1.02" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-1.66" y="1.02" size="0.5" layer="25">&gt;NAME</text>
+<wire x1="1.05" y1="-0.68" x2="-1.05" y2="-0.68" width="0.127" layer="51"/>
+<wire x1="1.05" y1="0.68" x2="-1.05" y2="0.68" width="0.127" layer="51"/>
+<wire x1="1.05" y1="-0.68" x2="1.05" y2="0.68" width="0.127" layer="51"/>
+<wire x1="-1.05" y1="-0.68" x2="-1.05" y2="0.68" width="0.127" layer="51"/>
+<wire x1="-1.665" y1="-0.94" x2="1.665" y2="-0.94" width="0.05" layer="39"/>
+<wire x1="-1.665" y1="0.94" x2="1.665" y2="0.94" width="0.05" layer="39"/>
+<wire x1="-1.665" y1="-0.94" x2="-1.665" y2="0.94" width="0.05" layer="39"/>
+<wire x1="1.665" y1="-0.94" x2="1.665" y2="0.94" width="0.05" layer="39"/>
+<smd name="1" x="-0.863" y="0" dx="1.1" dy="1.38" layer="1"/>
+<smd name="2" x="0.863" y="0" dx="1.1" dy="1.38" layer="1"/>
+</package>
+<package name="CAPC2012X70">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="-1.873" y1="0.983" x2="1.873" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.873" y1="-0.983" x2="-1.873" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.873" y1="-0.983" x2="-1.873" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-0.381" y1="0.66" x2="0.381" y2="0.66" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.66" x2="0.381" y2="-0.66" width="0.1016" layer="51"/>
+<wire x1="1.873" y1="0.983" x2="1.873" y2="-0.983" width="0.0508" layer="39"/>
+<text x="-1.971059375" y="1.07058125" size="0.80043125" layer="25">&gt;NAME</text>
+<text x="-1.970240625" y="-1.940240625" size="0.8001" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.09271875" y1="-0.72424375" x2="-0.3421" y2="0.7262" layer="51"/>
+<rectangle x1="0.355921875" y1="-0.72455625" x2="1.1057" y2="0.7262" layer="51"/>
+<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+</package>
 </packages>
 </library>
 </libraries>
@@ -904,12 +989,12 @@ design rules under a new name.</description>
 </designrules>
 <autorouter>
 <pass name="Default">
-<param name="RoutingGrid" value="50mil"/>
+<param name="RoutingGrid" value="0.25mm"/>
 <param name="AutoGrid" value="1"/>
-<param name="Efforts" value="0"/>
+<param name="Efforts" value="2"/>
 <param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
-<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.1" value="*"/>
 <param name="PrefDir.2" value="0"/>
 <param name="PrefDir.3" value="0"/>
 <param name="PrefDir.4" value="0"/>
@@ -924,7 +1009,7 @@ design rules under a new name.</description>
 <param name="PrefDir.13" value="0"/>
 <param name="PrefDir.14" value="0"/>
 <param name="PrefDir.15" value="0"/>
-<param name="PrefDir.16" value="a"/>
+<param name="PrefDir.16" value="|"/>
 <param name="cfVia" value="8"/>
 <param name="cfNonPref" value="5"/>
 <param name="cfChangeDir" value="2"/>
@@ -1243,441 +1328,477 @@ design rules under a new name.</description>
 <attribute name="FARNELL" value="2292961" x="324.67" y="83.57" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER" value="540-MX1A-11NW" x="324.67" y="83.57" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D1" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-90.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-90.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-90.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-89.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-92.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D2" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-99.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-99.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-99.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-98.623909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-101.87858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D3" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-109.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-109.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-109.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-108.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-111.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D4" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-118.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-118.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-118.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-117.623909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-120.87858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D5" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-128.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-128.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-128.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-127.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-130.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D6" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-137.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-137.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-137.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-136.623909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-139.87858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D7" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-147.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-147.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-147.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-146.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-149.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D8" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-156.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-156.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-156.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-155.623909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-158.87858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D9" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-166.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-166.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-166.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-165.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-168.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D10" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-175.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-175.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-175.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-174.623909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-177.87858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D11" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-185.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-185.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-185.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-184.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-187.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D12" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-194.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-194.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-194.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-193.623909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-196.87858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D13" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-204.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-204.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-204.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-203.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-206.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D14" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-213.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-213.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-213.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-212.623909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-215.87858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D15" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-223.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-223.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-223.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-222.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-225.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D16" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-232.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-232.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-232.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-231.623909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-234.87858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D17" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-242.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-242.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-242.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-241.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-244.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D18" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-251.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-251.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-251.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-250.623909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-253.87858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D19" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-261.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-261.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-261.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-260.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-263.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D20" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-270.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-270.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-270.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-269.623909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-272.87858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D21" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-280.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-280.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-280.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-279.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-282.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D22" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-289.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-289.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-289.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-288.623909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-291.87858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D23" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-299.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-299.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-299.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-298.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-301.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D24" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-308.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-308.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-308.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-307.623909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-310.87858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D25" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-318.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-318.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-318.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-317.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-320.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D26" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-327.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-327.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-327.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-326.623909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-329.87858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D27" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-337.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-337.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-337.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-336.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-339.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D28" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-346.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-346.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-346.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-345.623909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-348.87858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D29" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-356.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-356.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-356.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-355.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-358.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D30" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-365.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-365.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-365.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-364.623909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-367.87858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D31" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-375.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-375.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-375.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-374.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-377.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D32" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-384.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-384.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-384.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-383.623909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-386.87858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D33" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-394.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-394.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-394.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-393.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-396.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D34" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-403.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-403.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-403.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-402.623909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-405.87858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D35" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-413.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-413.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-413.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-412.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-415.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D36" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-422.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-422.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-422.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-421.623909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-424.87858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D37" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-432.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-432.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-432.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-431.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-434.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D38" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-441.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-441.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-441.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-440.623909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-443.87858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D39" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-451.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-451.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-451.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-450.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-453.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D40" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-460.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-460.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-460.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-459.623909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-462.87858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D41" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-470.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-470.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-470.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-469.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-472.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D42" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-479.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-479.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-479.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-478.623909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-481.87858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D43" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-489.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-489.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-489.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-488.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-491.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D44" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-498.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-498.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-498.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-497.623909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-500.87858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D45" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-508.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-508.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-508.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-507.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-510.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D46" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-517.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-517.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-517.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-516.623909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-519.87858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D47" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-527.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-527.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-527.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-526.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-529.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D48" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-536.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-536.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-536.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-535.623909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-538.87858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D49" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-546.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-546.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-546.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-545.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-548.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D50" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-555.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-555.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-555.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-554.623909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-557.87858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D51" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-565.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-565.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-565.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-564.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-567.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D52" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-574.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-574.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-574.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-573.623909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-576.87858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D53" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-584.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-584.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-584.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-583.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-586.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D54" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-593.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-593.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-593.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-592.623909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-595.87858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D55" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-603.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-603.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-603.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-602.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-605.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D56" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-612.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-612.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-612.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-611.623909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-614.87858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D57" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-622.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-622.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-622.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-621.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-624.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D58" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-631.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-631.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-631.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-630.623909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-633.87858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D59" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-641.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-641.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-641.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-640.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-643.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D60" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-650.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-650.75" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-650.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-649.623909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-652.87858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D61" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="-4.75" y="-660.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C81598" x="-4.75" y="-660.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Inc." x="-4.75" y="-660.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.377540625" y="-659.123909375" size="1.01698125" layer="25"/>
-<attribute name="VALUE" x="-7.37943125" y="-662.37858125" size="1.017709375" layer="27"/>
-</element>
-<element name="D62" library="k60" package="SOT95P280X145-6N" value="USBLC6-2SC6" x="-14.25" y="-655.5" smashed="yes">
-<attribute name="LCSC_PART#" value="C7519" x="-14.25" y="-655.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="STMicroelectronics" x="-14.25" y="-655.5" size="1.778" layer="27" display="off"/>
-<attribute name="MAXIMUM_PACKAGE_HEIGHT" value="1.45mm" x="-14.25" y="-655.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-16.25048125" y="-653.49951875" size="0.609896875" layer="25"/>
-<attribute name="PARTREV" value="5" x="-14.25" y="-655.5" size="1.778" layer="27" display="off"/>
-<attribute name="STANDARD" value="IPC-7351B" x="-14.25" y="-655.5" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-16.25123125" y="-657.50123125" size="0.61090625" layer="27" align="top-left"/>
-</element>
-<element name="Y1" library="k60" package="OSC_X322516MLB4SI" value="X322516MLB4SI" x="-23.75" y="-655.5" smashed="yes">
-<attribute name="LCSC_PART#" value="C13738" x="-23.75" y="-655.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="YXC" x="-23.75" y="-655.5" size="1.778" layer="27" display="off"/>
-<attribute name="MAXIMUM_PACKAGE_HEIGHT" value="0.8 mm" x="-23.75" y="-655.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-25.75" y="-653.25" size="0.8128" layer="25"/>
-<attribute name="PARTREV" value="N/A" x="-23.75" y="-655.5" size="1.778" layer="27" display="off"/>
-<attribute name="STANDARD" value="Manufacturer Recommendations" x="-23.75" y="-655.5" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-25.75" y="-657.75" size="0.8128" layer="27" align="top-left"/>
-</element>
-<element name="J1" library="k60" package="JST_SM04B-SRSS-TB(LF)(SN)" value="SM04B-SRSS-TB(LF)(SN)" x="-33.25" y="-655.5" smashed="yes">
-<attribute name="LCSC_PART#" value="C160404" x="-33.25" y="-655.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="JST" x="-33.25" y="-655.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-36.97381875" y="-654.368059375" size="1.271490625" layer="25"/>
-<attribute name="STANDARD" value="Manufacturer recommendations" x="-33.25" y="-655.5" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-36.963609375" y="-661.875909375" size="1.27071875" layer="27"/>
-</element>
-<element name="C1" library="k60" package="CAPC2012X140N" value="CL21C220JBANNNC" x="-33.25" y="-669.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C1804" x="-33.25" y="-669.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-35.05" y="-668.75" size="1.27" layer="25"/>
-<attribute name="VALUE" x="-35.05" y="-672.05" size="1.27" layer="27"/>
-</element>
-<element name="C2" library="k60" package="CAPC2012X140N" value="CL21C220JBANNNC" x="-33.25" y="-679.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C1804" x="-33.25" y="-679.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-35.05" y="-678.25" size="1.27" layer="25"/>
-<attribute name="VALUE" x="-35.05" y="-681.55" size="1.27" layer="27"/>
-</element>
-<element name="C3" library="k60" package="CL21B105KBFNNNE_CAPC2012X140N" value="CL21B105KBFNNNE" x="-33.25" y="-688.75" smashed="yes">
-<attribute name="LCSC_PART#" value="C28323" x="-33.25" y="-688.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-35.05" y="-687.75" size="1.27" layer="25"/>
-<attribute name="VALUE" x="-35.05" y="-691.05" size="1.27" layer="27"/>
-</element>
-<element name="U1" library="k60" package="QFP80P1200X1200X120-44N" value="ATMEGA32U4-AU" x="-47.5" y="-679.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C44854" x="-47.5" y="-679.25" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="ATMEGA32U4-AU" x="-47.5" y="-679.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-51.66611875" y="-689.3351" size="2.083059375" layer="25" ratio="10" rot="SR0"/>
-<attribute name="OC_FARNELL" value="1748525" x="-47.5" y="-679.25" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="26R5633" x="-47.5" y="-679.25" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="TQFP-44" x="-47.5" y="-679.25" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER" value="Atmel" x="-47.5" y="-679.25" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-50.95928125" y="-669.152" size="2.085740625" layer="27" ratio="10" rot="SR0"/>
-</element>
-<element name="R1" library="k60" package="RESC2012X60N" value="0805W8F1002T5E" x="-47.5" y="-693.5" smashed="yes">
-<attribute name="LCSC_PART#" value="C17414" x="-47.5" y="-693.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-49.21" y="-692.43" size="0.5" layer="25"/>
-<attribute name="VALUE" x="-49.21" y="-694.57" size="0.5" layer="27" align="top-left"/>
-</element>
-<element name="R2" library="k60" package="RESC2012X60N" value="0805W8F1002T5E" x="-47.5" y="-698.25" smashed="yes">
-<attribute name="LCSC_PART#" value="C17414" x="-47.5" y="-698.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-49.21" y="-697.18" size="0.5" layer="25"/>
-<attribute name="VALUE" x="-49.21" y="-699.32" size="0.5" layer="27" align="top-left"/>
-</element>
-<element name="R3" library="k60" package="RESC2012X65N" value="1623158-1" x="-57" y="-693.5" smashed="yes">
-<attribute name="LCSC_PART#" value="C17561" x="-57" y="-693.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-58.66683125" y="-692.037190625" size="0.621340625" layer="25"/>
-<attribute name="VALUE" x="-58.670259375" y="-695.4957" size="0.62148125" layer="27"/>
-</element>
-<element name="R4" library="k60" package="RESC2012X65N" value="1623158-1" x="-61.75" y="-693.5" smashed="yes">
-<attribute name="LCSC_PART#" value="C17561" x="-61.75" y="-693.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-63.41683125" y="-692.037190625" size="0.621340625" layer="25"/>
-<attribute name="VALUE" x="-63.420259375" y="-695.4957" size="0.62148125" layer="27"/>
+<element name="D1" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="28.5" y="93.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="28.5" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="28.5" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="29.626090625" y="90.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="26.37141875" y="90.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D2" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="47.5" y="93.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="47.5" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="47.5" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="48.626090625" y="90.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="45.37141875" y="90.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D3" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="66.5" y="93.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="66.5" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="66.5" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="67.626090625" y="90.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="64.37141875" y="90.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D4" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="85.5" y="93.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="85.5" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="85.5" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="86.626090625" y="90.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="83.37141875" y="90.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D5" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="104.5" y="93.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="104.5" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="104.5" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="105.626090625" y="90.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="102.37141875" y="90.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D6" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="123.5" y="93.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="123.5" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="123.5" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="124.626090625" y="90.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="121.37141875" y="90.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D7" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="142.5" y="93.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="142.5" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="142.5" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="143.626090625" y="90.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="140.37141875" y="90.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D8" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="161.5" y="93.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="161.5" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="161.5" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="162.626090625" y="90.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="159.37141875" y="90.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D9" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="180.5" y="93.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="180.5" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="180.5" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="181.626090625" y="90.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="178.37141875" y="90.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D10" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="199.5" y="93.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="199.5" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="199.5" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="200.626090625" y="90.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="197.37141875" y="90.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D11" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="218.5" y="93.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="218.5" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="218.5" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="219.626090625" y="90.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="216.37141875" y="90.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D12" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="237.5" y="93.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="237.5" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="237.5" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="238.626090625" y="90.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="235.37141875" y="90.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D13" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="256.5" y="93.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="256.5" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="256.5" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="257.626090625" y="90.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="254.37141875" y="90.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D14" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="266.5" y="93.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="266.5" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="266.5" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="267.626090625" y="90.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="264.37141875" y="90.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D15" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="38" y="74.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="38" y="74.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="38" y="74.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="39.126090625" y="71.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="35.87141875" y="71.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D16" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="57" y="74.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="57" y="74.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="57" y="74.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="58.126090625" y="71.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="54.87141875" y="71.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D17" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="76" y="74.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="76" y="74.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="76" y="74.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="77.126090625" y="71.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="73.87141875" y="71.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D18" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="95" y="74.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="95" y="74.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="95" y="74.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="96.126090625" y="71.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="92.87141875" y="71.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D19" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="114" y="74.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="114" y="74.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="114" y="74.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="115.126090625" y="71.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="111.87141875" y="71.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D20" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="133" y="74.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="133" y="74.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="133" y="74.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="134.126090625" y="71.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="130.87141875" y="71.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D21" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="152" y="74.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="152" y="74.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="152" y="74.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="153.126090625" y="71.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="149.87141875" y="71.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D22" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="171" y="74.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="171" y="74.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="171" y="74.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="172.126090625" y="71.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="168.87141875" y="71.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D23" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="190" y="74.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="190" y="74.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="190" y="74.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="191.126090625" y="71.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="187.87141875" y="71.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D24" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="209" y="74.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="209" y="74.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="209" y="74.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="210.126090625" y="71.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="206.87141875" y="71.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D25" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="228" y="74.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="228" y="74.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="228" y="74.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="229.126090625" y="71.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="225.87141875" y="71.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D26" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="247" y="74.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="247" y="74.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="247" y="74.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="248.126090625" y="71.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="244.87141875" y="71.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D27" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="266" y="74.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="266" y="74.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="266" y="74.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="267.126090625" y="71.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="263.87141875" y="71.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D28" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="271" y="74.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="271" y="74.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="271" y="74.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="272.126090625" y="71.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="268.87141875" y="71.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D29" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="42.5" y="54.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="42.5" y="54.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="42.5" y="54.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="43.626090625" y="51.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="40.37141875" y="51.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D30" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="61.5" y="55" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="61.5" y="55" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="61.5" y="55" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="62.626090625" y="52.372459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="59.37141875" y="52.37056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D31" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="80.5" y="55" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="80.5" y="55" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="80.5" y="55" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="81.626090625" y="52.372459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="78.37141875" y="52.37056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D32" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="99.5" y="55" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="99.5" y="55" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="99.5" y="55" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="100.626090625" y="52.372459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="97.37141875" y="52.37056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D33" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="118.5" y="55" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="118.5" y="55" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="118.5" y="55" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="119.626090625" y="52.372459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="116.37141875" y="52.37056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D34" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="137.5" y="55" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="137.5" y="55" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="137.5" y="55" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="138.626090625" y="52.372459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="135.37141875" y="52.37056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D35" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="156.5" y="55" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="156.5" y="55" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="156.5" y="55" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="157.626090625" y="52.372459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="154.37141875" y="52.37056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D36" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="175.5" y="55" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="175.5" y="55" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="175.5" y="55" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="176.626090625" y="52.372459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="173.37141875" y="52.37056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D37" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="194.5" y="55" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="194.5" y="55" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="194.5" y="55" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="195.626090625" y="52.372459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="192.37141875" y="52.37056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D38" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="213.5" y="55" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="213.5" y="55" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="213.5" y="55" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="214.626090625" y="52.372459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="211.37141875" y="52.37056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D39" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="232.5" y="55" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="232.5" y="55" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="232.5" y="55" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="233.626090625" y="52.372459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="230.37141875" y="52.37056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D40" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="251.5" y="55" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="251.5" y="55" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="251.5" y="55" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="252.626090625" y="52.372459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="249.37141875" y="52.37056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D41" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="264" y="55" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="264" y="55" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="264" y="55" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="265.126090625" y="52.372459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="261.87141875" y="52.37056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D42" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="42.5" y="36" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="42.5" y="36" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="42.5" y="36" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="43.626090625" y="33.372459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="40.37141875" y="33.37056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D43" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="71" y="35.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="71" y="35.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="71" y="35.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="72.126090625" y="32.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="68.87141875" y="32.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D44" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="90" y="35.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="90" y="35.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="90" y="35.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="91.126090625" y="32.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="87.87141875" y="32.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D45" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="109" y="35.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="109" y="35.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="109" y="35.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="110.126090625" y="32.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="106.87141875" y="32.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D46" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="128.5" y="35.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="128.5" y="35.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="128.5" y="35.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="129.626090625" y="32.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="126.37141875" y="32.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D47" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="147" y="35.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="147" y="35.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="147" y="35.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="148.126090625" y="32.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="144.87141875" y="32.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D48" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="166" y="35.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="166" y="35.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="166" y="35.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="167.126090625" y="32.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="163.87141875" y="32.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D49" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="185" y="35.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="185" y="35.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="185" y="35.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="186.126090625" y="32.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="182.87141875" y="32.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D50" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="204" y="35.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="204" y="35.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="204" y="35.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="205.126090625" y="32.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="201.87141875" y="32.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D51" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="223" y="35.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="223" y="35.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="223" y="35.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="224.126090625" y="32.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="220.87141875" y="32.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D52" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="241.5" y="35.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="241.5" y="35.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="241.5" y="35.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="242.626090625" y="32.872459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="239.37141875" y="32.87056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D53" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="259" y="35" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="259" y="35" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="259" y="35" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="260.126090625" y="32.372459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="256.87141875" y="32.37056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D54" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="274" y="19" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="274" y="19" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="274" y="19" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="275.126090625" y="16.372459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="271.87141875" y="16.37056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D55" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="267" y="19" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="267" y="19" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="267" y="19" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="268.126090625" y="16.372459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="264.87141875" y="16.37056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D56" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="244" y="19" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="244" y="19" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="244" y="19" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="245.126090625" y="16.372459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="241.87141875" y="16.37056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D57" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="220" y="19" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="220" y="19" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="220" y="19" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="221.126090625" y="16.372459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="217.87141875" y="16.37056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D58" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="149" y="19" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="149" y="19" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="149" y="19" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="150.126090625" y="16.372459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="146.87141875" y="16.37056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D59" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="78" y="19" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="78" y="19" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="78" y="19" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="79.126090625" y="16.372459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="75.87141875" y="16.37056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D60" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="53" y="19" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="53" y="19" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="53" y="19" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="54.126090625" y="16.372459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="50.87141875" y="16.37056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="D61" library="k60" package="SOD3715X135N" value="BAV21W-7-F" x="30" y="19" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C81598" x="30" y="19" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Inc." x="30" y="19" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="31.126090625" y="16.372459375" size="1.01698125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="27.87141875" y="16.37056875" size="1.017709375" layer="28" rot="MR90"/>
+</element>
+<element name="Y1" library="k60" package="OSC_X322516MLB4SI" value="X322516MLB4SI" x="116.5" y="20.5" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C13738" x="116.5" y="20.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="YXC" x="116.5" y="20.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MAXIMUM_PACKAGE_HEIGHT" value="0.8 mm" x="116.5" y="20.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="118.75" y="18.5" size="0.8128" layer="26" rot="MR90"/>
+<attribute name="PARTREV" value="N/A" x="116.5" y="20.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="STANDARD" value="Manufacturer Recommendations" x="116.5" y="20.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="114.25" y="18.5" size="0.8128" layer="28" rot="MR90" align="top-left"/>
+</element>
+<element name="J1" library="k60" package="JST_SM04B-SRSS-TB(LF)(SN)" value="SM04B-SRSS-TB(LF)(SN)" x="84.75" y="28.25" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C160404" x="84.75" y="28.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="JST" x="84.75" y="28.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="85.881940625" y="24.52618125" size="1.271490625" layer="26" rot="MR90"/>
+<attribute name="STANDARD" value="Manufacturer recommendations" x="84.75" y="28.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="78.374090625" y="24.536390625" size="1.27071875" layer="28" rot="MR90"/>
+</element>
+<element name="C1" library="k60" package="CAPC2012X140N" value="CL21C220JBANNNC" x="116.5" y="17.5" smashed="yes" rot="MR0">
+<attribute name="LCSC_PART#" value="C1804" x="116.5" y="17.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="118.3" y="18.5" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="118.3" y="15.2" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="C2" library="k60" package="CAPC2012X140N" value="CL21C220JBANNNC" x="116.5" y="23.5" smashed="yes" rot="MR0">
+<attribute name="LCSC_PART#" value="C1804" x="116.5" y="23.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="118.3" y="24.5" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="118.3" y="21.2" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="C3" library="k60" package="CL21B105KBFNNNE_CAPC2012X140N" value="CL21B105KBFNNNE" x="103.75" y="29" smashed="yes" rot="MR0">
+<attribute name="LCSC_PART#" value="C28323" x="103.75" y="29" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="105.55" y="30" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="105.55" y="26.7" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="U1" library="k60" package="QFP80P1200X1200X120-44N" value="ATMEGA32U4-AU" x="104" y="20" smashed="yes" rot="MR270">
+<attribute name="LCSC_PART#" value="C44854" x="104" y="20" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="ATMEGA32U4-AU" x="104" y="20" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="114.0851" y="24.16611875" size="2.083059375" layer="26" ratio="10" rot="SMR270"/>
+<attribute name="OC_FARNELL" value="1748525" x="104" y="20" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="OC_NEWARK" value="26R5633" x="104" y="20" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="PACKAGE" value="TQFP-44" x="104" y="20" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SUPPLIER" value="Atmel" x="104" y="20" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="111.902" y="26.45928125" size="2.085740625" layer="28" ratio="10" rot="SMR0"/>
+</element>
+<element name="R1" library="k60" package="RESC2012X60N" value="0805W8F1002T5E" x="104.5" y="11.5" smashed="yes" rot="MR180">
+<attribute name="LCSC_PART#" value="C17414" x="104.5" y="11.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="102.79" y="10.43" size="0.5" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="102.79" y="12.57" size="0.5" layer="28" rot="MR180" align="top-left"/>
+</element>
+<element name="R2" library="k60" package="RESC2012X60N" value="0805W8F1002T5E" x="120.5" y="24.25" smashed="yes" rot="MR270">
+<attribute name="LCSC_PART#" value="C17414" x="120.5" y="24.25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="119.43" y="25.96" size="0.5" layer="26" rot="MR270"/>
+<attribute name="VALUE" x="121.57" y="25.96" size="0.5" layer="28" rot="MR270" align="top-left"/>
+</element>
+<element name="R3" library="k60" package="RESC2012X65N" value="1623158-1" x="97" y="28" smashed="yes" rot="MR180">
+<attribute name="LCSC_PART#" value="C17561" x="97" y="28" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="95.33316875" y="26.537190625" size="0.621340625" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="95.329740625" y="29.9957" size="0.62148125" layer="28" rot="MR180"/>
+</element>
+<element name="R4" library="k60" package="RESC2012X65N" value="1623158-1" x="97" y="30.5" smashed="yes" rot="MR180">
+<attribute name="LCSC_PART#" value="C17561" x="97" y="30.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="95.33316875" y="29.037190625" size="0.621340625" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="95.329740625" y="32.4957" size="0.62148125" layer="28" rot="MR180"/>
+</element>
+<element name="S1" library="k60" package="SW_TS-1187A-B-A-B" value="TS-1187A-B-A-B" x="126" y="22" smashed="yes" rot="MR270">
+<attribute name="LCSC_PART#" value="C318884" x="126" y="22" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="XKB Industrial Precision" x="126" y="22" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MAXIMUM_PACKAGE_HEIGHT" value="1.5mm" x="126" y="22" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="123" y="26" size="1.27" layer="26" rot="MR270"/>
+<attribute name="PARTREV" value="A0" x="126" y="22" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="STANDARD" value="Manufacturer Recommendations" x="126" y="22" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="130.2" y="26" size="1.27" layer="28" rot="MR270"/>
+</element>
+<element name="R5" library="k60" package="RESC3115X65N" value="NSMD050-24V" x="91" y="25.5" smashed="yes" rot="MR180">
+<attribute name="LCSC_PART#" value="C70076" x="91" y="25.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="88.6596" y="24.16195" size="0.610921875" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="88.55288125" y="27.73558125" size="0.611796875" layer="28" rot="MR180"/>
+</element>
+<element name="D62" library="k60" package="SOT95P280X145-6N" value="USBLC6-2SC6" x="91" y="29" smashed="yes" rot="MR0">
+<attribute name="MANUFACTURER" value="STMicroelectronics" x="91" y="29" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MAXIMUM_PACKAGE_HEIGHT" value="1.45mm" x="91" y="29" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="93.00048125" y="31.00048125" size="0.609896875" layer="26" rot="MR0"/>
+<attribute name="PARTREV" value="5" x="91" y="29" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STANDARD" value="IPC-7351B" x="91" y="29" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="93.00123125" y="26.99876875" size="0.61090625" layer="28" rot="MR0" align="top-left"/>
+</element>
+<element name="C4" library="k60" package="CAPC2012X135N" value="CL21A106KAYNNNE" x="96" y="25" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C15850" x="96" y="25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="97.02" y="23.34" size="0.5" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="94.98" y="23.34" size="0.5" layer="28" rot="MR90" align="top-left"/>
+</element>
+<element name="C5" library="k60" package="CAPC2012X70" value="CC0805KRX7R9BB104" x="95.5" y="15.5" smashed="yes" rot="MR270">
+<attribute name="LCSC_PART#" value="C49678" x="95.5" y="15.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="YAGEO" x="95.5" y="15.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="94.42941875" y="17.471059375" size="0.80043125" layer="26" rot="MR270"/>
+<attribute name="VALUE" x="97.440240625" y="17.470240625" size="0.8001" layer="28" rot="MR270"/>
+</element>
+<element name="C6" library="k60" package="CAPC2012X70" value="CC0805KRX7R9BB104" x="109" y="11.5" smashed="yes" rot="MR0">
+<attribute name="LCSC_PART#" value="C49678" x="109" y="11.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="YAGEO" x="109" y="11.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="110.971059375" y="12.57058125" size="0.80043125" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="110.970240625" y="9.559759375" size="0.8001" layer="28" rot="MR0"/>
+</element>
+<element name="C7" library="k60" package="CAPC2012X70" value="CC0805KRX7R9BB104" x="113.5" y="25" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART#" value="C49678" x="113.5" y="25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="YAGEO" x="113.5" y="25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="114.57058125" y="23.028940625" size="0.80043125" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="111.559759375" y="23.029759375" size="0.8001" layer="28" rot="MR90"/>
 </element>
 </elements>
 <signals>
@@ -1687,10 +1808,12 @@ design rules under a new name.</description>
 <contactref element="1,3" pad="S1"/>
 <contactref element="1,5" pad="S1"/>
 <contactref element="1,4" pad="S1"/>
-<wire x1="27.065" y1="40.54" x2="17.565" y2="21.54" width="0" layer="19" extent="1-1"/>
+<contactref element="U1" pad="41"/>
+<wire x1="27.065" y1="40.54" x2="98.2596" y2="21.6002" width="0" layer="19" extent="16-16"/>
 <wire x1="22.315" y1="59.54" x2="27.065" y2="40.54" width="0" layer="19" extent="1-1"/>
 <wire x1="19.94" y1="78.54" x2="22.315" y2="59.54" width="0" layer="19" extent="1-1"/>
 <wire x1="15.19" y1="97.54" x2="19.94" y2="78.54" width="0" layer="19" extent="1-1"/>
+<wire x1="17.565" y1="21.54" x2="27.065" y2="40.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="COL2">
 <contactref element="2,1" pad="S1"/>
@@ -1698,10 +1821,12 @@ design rules under a new name.</description>
 <contactref element="2,2" pad="S1"/>
 <contactref element="2,3" pad="S1"/>
 <contactref element="2,4" pad="S1"/>
-<wire x1="57.94" y1="40.54" x2="41.315" y2="21.54" width="0" layer="19" extent="1-1"/>
-<wire x1="48.44" y1="59.54" x2="57.94" y2="40.54" width="0" layer="19" extent="1-1"/>
-<wire x1="43.69" y1="78.54" x2="48.44" y2="59.54" width="0" layer="19" extent="1-1"/>
-<wire x1="34.19" y1="97.54" x2="43.69" y2="78.54" width="0" layer="19" extent="1-1"/>
+<contactref element="U1" pad="40"/>
+<wire x1="43.69" y1="78.54" x2="34.19" y2="97.54" width="0" layer="19" extent="1-1"/>
+<wire x1="48.44" y1="59.54" x2="43.69" y2="78.54" width="0" layer="19" extent="1-1"/>
+<wire x1="57.94" y1="40.54" x2="48.44" y2="59.54" width="0" layer="19" extent="1-1"/>
+<wire x1="41.315" y1="21.54" x2="57.94" y2="40.54" width="0" layer="19" extent="1-1"/>
+<wire x1="98.2596" y1="20.7874" x2="57.94" y2="40.54" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="COL3">
 <contactref element="3,1" pad="S1"/>
@@ -1709,10 +1834,12 @@ design rules under a new name.</description>
 <contactref element="3,2" pad="S1"/>
 <contactref element="3,3" pad="S1"/>
 <contactref element="3,4" pad="S1"/>
+<contactref element="U1" pad="18"/>
 <wire x1="62.69" y1="78.54" x2="53.19" y2="97.54" width="0" layer="19" extent="1-1"/>
 <wire x1="67.44" y1="59.54" x2="62.69" y2="78.54" width="0" layer="19" extent="1-1"/>
 <wire x1="76.94" y1="40.54" x2="67.44" y2="59.54" width="0" layer="19" extent="1-1"/>
 <wire x1="65.065" y1="21.54" x2="76.94" y2="40.54" width="0" layer="19" extent="1-1"/>
+<wire x1="109.7404" y1="19.2126" x2="76.94" y2="40.54" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="COL4">
 <contactref element="4,1" pad="S1"/>
@@ -1720,10 +1847,12 @@ design rules under a new name.</description>
 <contactref element="4,2" pad="S1"/>
 <contactref element="4,3" pad="S1"/>
 <contactref element="4,4" pad="S1"/>
+<contactref element="U1" pad="19"/>
 <wire x1="81.69" y1="78.54" x2="72.19" y2="97.54" width="0" layer="19" extent="1-1"/>
 <wire x1="86.44" y1="59.54" x2="81.69" y2="78.54" width="0" layer="19" extent="1-1"/>
 <wire x1="95.94" y1="40.54" x2="86.44" y2="59.54" width="0" layer="19" extent="1-1"/>
-<wire x1="136.315" y1="21.54" x2="95.94" y2="40.54" width="0" layer="19" extent="1-1"/>
+<wire x1="109.7404" y1="18.3998" x2="95.94" y2="40.54" width="0" layer="19" extent="16-16"/>
+<wire x1="136.315" y1="21.54" x2="109.7404" y2="18.3998" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="COL5">
 <contactref element="5,1" pad="S1"/>
@@ -1731,10 +1860,12 @@ design rules under a new name.</description>
 <contactref element="5,2" pad="S1"/>
 <contactref element="5,3" pad="S1"/>
 <contactref element="5,4" pad="S1"/>
+<contactref element="U1" pad="20"/>
 <wire x1="114.94" y1="40.54" x2="207.565" y2="21.54" width="0" layer="19" extent="1-1"/>
 <wire x1="105.44" y1="59.54" x2="114.94" y2="40.54" width="0" layer="19" extent="1-1"/>
 <wire x1="100.69" y1="78.54" x2="105.44" y2="59.54" width="0" layer="19" extent="1-1"/>
 <wire x1="91.19" y1="97.54" x2="100.69" y2="78.54" width="0" layer="19" extent="1-1"/>
+<wire x1="109.7404" y1="17.6124" x2="114.94" y2="40.54" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="COL6">
 <contactref element="6,1" pad="S1"/>
@@ -1742,10 +1873,12 @@ design rules under a new name.</description>
 <contactref element="6,2" pad="S1"/>
 <contactref element="6,3" pad="S1"/>
 <contactref element="6,4" pad="S1"/>
+<contactref element="U1" pad="21"/>
 <wire x1="133.94" y1="40.54" x2="231.315" y2="21.54" width="0" layer="19" extent="1-1"/>
 <wire x1="124.44" y1="59.54" x2="133.94" y2="40.54" width="0" layer="19" extent="1-1"/>
 <wire x1="119.69" y1="78.54" x2="124.44" y2="59.54" width="0" layer="19" extent="1-1"/>
 <wire x1="110.19" y1="97.54" x2="119.69" y2="78.54" width="0" layer="19" extent="1-1"/>
+<wire x1="109.7404" y1="16.7996" x2="133.94" y2="40.54" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="COL7">
 <contactref element="7,1" pad="S1"/>
@@ -1753,10 +1886,12 @@ design rules under a new name.</description>
 <contactref element="7,2" pad="S1"/>
 <contactref element="7,3" pad="S1"/>
 <contactref element="7,4" pad="S1"/>
-<wire x1="152.94" y1="40.54" x2="255.065" y2="21.54" width="0" layer="19" extent="1-1"/>
-<wire x1="143.44" y1="59.54" x2="152.94" y2="40.54" width="0" layer="19" extent="1-1"/>
-<wire x1="138.69" y1="78.54" x2="143.44" y2="59.54" width="0" layer="19" extent="1-1"/>
-<wire x1="129.19" y1="97.54" x2="138.69" y2="78.54" width="0" layer="19" extent="1-1"/>
+<contactref element="U1" pad="25"/>
+<wire x1="138.69" y1="78.54" x2="129.19" y2="97.54" width="0" layer="19" extent="1-1"/>
+<wire x1="143.44" y1="59.54" x2="138.69" y2="78.54" width="0" layer="19" extent="1-1"/>
+<wire x1="152.94" y1="40.54" x2="143.44" y2="59.54" width="0" layer="19" extent="1-1"/>
+<wire x1="106.3876" y1="14.2596" x2="152.94" y2="40.54" width="0" layer="19" extent="16-16"/>
+<wire x1="255.065" y1="21.54" x2="152.94" y2="40.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="COL8">
 <contactref element="8,1" pad="S1"/>
@@ -1764,363 +1899,317 @@ design rules under a new name.</description>
 <contactref element="8,2" pad="S1"/>
 <contactref element="8,3" pad="S1"/>
 <contactref element="8,4" pad="S1"/>
-<wire x1="171.94" y1="40.54" x2="278.815" y2="21.54" width="0" layer="19" extent="1-1"/>
-<wire x1="162.44" y1="59.54" x2="171.94" y2="40.54" width="0" layer="19" extent="1-1"/>
-<wire x1="157.69" y1="78.54" x2="162.44" y2="59.54" width="0" layer="19" extent="1-1"/>
-<wire x1="148.19" y1="97.54" x2="157.69" y2="78.54" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="COL9">
-<contactref element="9,1" pad="S1"/>
-<contactref element="9,4" pad="S1"/>
-<contactref element="9,2" pad="S1"/>
-<contactref element="9,3" pad="S1"/>
-<wire x1="176.69" y1="78.54" x2="167.19" y2="97.54" width="0" layer="19" extent="1-1"/>
-<wire x1="181.44" y1="59.54" x2="176.69" y2="78.54" width="0" layer="19" extent="1-1"/>
-<wire x1="190.94" y1="40.54" x2="181.44" y2="59.54" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="COL10">
-<contactref element="10,1" pad="S1"/>
-<contactref element="10,4" pad="S1"/>
-<contactref element="10,2" pad="S1"/>
-<contactref element="10,3" pad="S1"/>
-<wire x1="195.69" y1="78.54" x2="186.19" y2="97.54" width="0" layer="19" extent="1-1"/>
-<wire x1="200.44" y1="59.54" x2="195.69" y2="78.54" width="0" layer="19" extent="1-1"/>
-<wire x1="209.94" y1="40.54" x2="200.44" y2="59.54" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="COL11">
-<contactref element="11,1" pad="S1"/>
-<contactref element="11,4" pad="S1"/>
-<contactref element="11,2" pad="S1"/>
-<contactref element="11,3" pad="S1"/>
-<wire x1="214.69" y1="78.54" x2="205.19" y2="97.54" width="0" layer="19" extent="1-1"/>
-<wire x1="219.44" y1="59.54" x2="214.69" y2="78.54" width="0" layer="19" extent="1-1"/>
-<wire x1="228.94" y1="40.54" x2="219.44" y2="59.54" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="COL12">
-<contactref element="12,1" pad="S1"/>
-<contactref element="12,4" pad="S1"/>
-<contactref element="12,2" pad="S1"/>
-<contactref element="12,3" pad="S1"/>
-<wire x1="233.69" y1="78.54" x2="224.19" y2="97.54" width="0" layer="19" extent="1-1"/>
-<wire x1="238.44" y1="59.54" x2="233.69" y2="78.54" width="0" layer="19" extent="1-1"/>
-<wire x1="264.565" y1="40.54" x2="238.44" y2="59.54" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="COL13">
-<contactref element="13,1" pad="S1"/>
-<contactref element="13,2" pad="S1"/>
-<contactref element="13,3" pad="S1"/>
-<wire x1="252.69" y1="78.54" x2="243.19" y2="97.54" width="0" layer="19" extent="1-1"/>
-<wire x1="269.315" y1="59.54" x2="252.69" y2="78.54" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="COL14">
-<contactref element="14,1" pad="S1"/>
-<contactref element="14,2" pad="S1"/>
-<wire x1="271.69" y1="97.54" x2="276.44" y2="78.54" width="0" layer="19" extent="1-1"/>
+<contactref element="U1" pad="22"/>
+<wire x1="157.69" y1="78.54" x2="148.19" y2="97.54" width="0" layer="19" extent="1-1"/>
+<wire x1="162.44" y1="59.54" x2="157.69" y2="78.54" width="0" layer="19" extent="1-1"/>
+<wire x1="171.94" y1="40.54" x2="162.44" y2="59.54" width="0" layer="19" extent="1-1"/>
+<wire x1="109.7404" y1="16.0122" x2="171.94" y2="40.54" width="0" layer="19" extent="16-16"/>
+<wire x1="278.815" y1="21.54" x2="171.94" y2="40.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
 <contactref element="1,1" pad="S2"/>
 <contactref element="D1" pad="A"/>
-<wire x1="21.54" y1="100.08" x2="-2.95" y2="-90.25" width="0" layer="19" extent="1-1"/>
+<wire x1="21.54" y1="100.08" x2="28.5" y2="95.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$16">
 <contactref element="2,1" pad="S2"/>
 <contactref element="D2" pad="A"/>
-<wire x1="40.54" y1="100.08" x2="-2.95" y2="-99.75" width="0" layer="19" extent="1-1"/>
+<wire x1="40.54" y1="100.08" x2="47.5" y2="95.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$17">
 <contactref element="3,1" pad="S2"/>
 <contactref element="D3" pad="A"/>
-<wire x1="59.54" y1="100.08" x2="-2.95" y2="-109.25" width="0" layer="19" extent="1-1"/>
+<wire x1="59.54" y1="100.08" x2="66.5" y2="95.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$18">
 <contactref element="4,1" pad="S2"/>
 <contactref element="D4" pad="A"/>
-<wire x1="78.54" y1="100.08" x2="-2.95" y2="-118.75" width="0" layer="19" extent="1-1"/>
+<wire x1="78.54" y1="100.08" x2="85.5" y2="95.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$19">
 <contactref element="5,1" pad="S2"/>
 <contactref element="D5" pad="A"/>
-<wire x1="97.54" y1="100.08" x2="-2.95" y2="-128.25" width="0" layer="19" extent="1-1"/>
+<wire x1="97.54" y1="100.08" x2="104.5" y2="95.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$20">
 <contactref element="6,1" pad="S2"/>
 <contactref element="D6" pad="A"/>
-<wire x1="116.54" y1="100.08" x2="-2.95" y2="-137.75" width="0" layer="19" extent="1-1"/>
+<wire x1="116.54" y1="100.08" x2="123.5" y2="95.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$21">
 <contactref element="7,1" pad="S2"/>
 <contactref element="D7" pad="A"/>
-<wire x1="135.54" y1="100.08" x2="-2.95" y2="-147.25" width="0" layer="19" extent="1-1"/>
+<wire x1="135.54" y1="100.08" x2="142.5" y2="95.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$22">
 <contactref element="8,1" pad="S2"/>
 <contactref element="D8" pad="A"/>
-<wire x1="154.54" y1="100.08" x2="-2.95" y2="-156.75" width="0" layer="19" extent="1-1"/>
+<wire x1="161.5" y1="95.3" x2="154.54" y2="100.08" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$23">
 <contactref element="9,1" pad="S2"/>
 <contactref element="D9" pad="A"/>
-<wire x1="173.54" y1="100.08" x2="-2.95" y2="-166.25" width="0" layer="19" extent="1-1"/>
+<wire x1="173.54" y1="100.08" x2="180.5" y2="95.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$24">
 <contactref element="10,1" pad="S2"/>
 <contactref element="D10" pad="A"/>
-<wire x1="-2.95" y1="-175.75" x2="192.54" y2="100.08" width="0" layer="19" extent="1-1"/>
+<wire x1="192.54" y1="100.08" x2="199.5" y2="95.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$25">
 <contactref element="11,1" pad="S2"/>
 <contactref element="D11" pad="A"/>
-<wire x1="-2.95" y1="-185.25" x2="211.54" y2="100.08" width="0" layer="19" extent="1-1"/>
+<wire x1="211.54" y1="100.08" x2="218.5" y2="95.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$26">
 <contactref element="12,1" pad="S2"/>
 <contactref element="D12" pad="A"/>
-<wire x1="-2.95" y1="-194.75" x2="230.54" y2="100.08" width="0" layer="19" extent="1-1"/>
+<wire x1="230.54" y1="100.08" x2="237.5" y2="95.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$27">
 <contactref element="13,1" pad="S2"/>
 <contactref element="D13" pad="A"/>
-<wire x1="-2.95" y1="-204.25" x2="249.54" y2="100.08" width="0" layer="19" extent="1-1"/>
+<wire x1="256.5" y1="95.3" x2="249.54" y2="100.08" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$28">
 <contactref element="14,1" pad="S2"/>
 <contactref element="D14" pad="A"/>
-<wire x1="278.04" y1="100.08" x2="-2.95" y2="-213.75" width="0" layer="19" extent="1-1"/>
+<wire x1="266.5" y1="95.3" x2="278.04" y2="100.08" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$29">
 <contactref element="1,2" pad="S2"/>
 <contactref element="D15" pad="A"/>
-<wire x1="26.29" y1="81.08" x2="-2.95" y2="-223.25" width="0" layer="19" extent="1-1"/>
+<wire x1="26.29" y1="81.08" x2="38" y2="76.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$30">
 <contactref element="2,2" pad="S2"/>
 <contactref element="D16" pad="A"/>
-<wire x1="50.04" y1="81.08" x2="-2.95" y2="-232.75" width="0" layer="19" extent="1-1"/>
+<wire x1="50.04" y1="81.08" x2="57" y2="76.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$31">
 <contactref element="3,2" pad="S2"/>
 <contactref element="D17" pad="A"/>
-<wire x1="69.04" y1="81.08" x2="-2.95" y2="-242.25" width="0" layer="19" extent="1-1"/>
+<wire x1="69.04" y1="81.08" x2="76" y2="76.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$32">
 <contactref element="4,2" pad="S2"/>
 <contactref element="D18" pad="A"/>
-<wire x1="-2.95" y1="-251.75" x2="88.04" y2="81.08" width="0" layer="19" extent="1-1"/>
+<wire x1="88.04" y1="81.08" x2="95" y2="76.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$33">
 <contactref element="5,2" pad="S2"/>
 <contactref element="D19" pad="A"/>
-<wire x1="-2.95" y1="-261.25" x2="107.04" y2="81.08" width="0" layer="19" extent="1-1"/>
+<wire x1="107.04" y1="81.08" x2="114" y2="76.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$34">
 <contactref element="6,2" pad="S2"/>
 <contactref element="D20" pad="A"/>
-<wire x1="-2.95" y1="-270.75" x2="126.04" y2="81.08" width="0" layer="19" extent="1-1"/>
+<wire x1="126.04" y1="81.08" x2="133" y2="76.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$35">
 <contactref element="7,2" pad="S2"/>
 <contactref element="D21" pad="A"/>
-<wire x1="-2.95" y1="-280.25" x2="145.04" y2="81.08" width="0" layer="19" extent="1-1"/>
+<wire x1="145.04" y1="81.08" x2="152" y2="76.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$36">
 <contactref element="8,2" pad="S2"/>
 <contactref element="D22" pad="A"/>
-<wire x1="-2.95" y1="-289.75" x2="164.04" y2="81.08" width="0" layer="19" extent="1-1"/>
+<wire x1="164.04" y1="81.08" x2="171" y2="76.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$37">
 <contactref element="9,2" pad="S2"/>
 <contactref element="D23" pad="A"/>
-<wire x1="-2.95" y1="-299.25" x2="183.04" y2="81.08" width="0" layer="19" extent="1-1"/>
+<wire x1="183.04" y1="81.08" x2="190" y2="76.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$38">
 <contactref element="10,2" pad="S2"/>
 <contactref element="D24" pad="A"/>
-<wire x1="-2.95" y1="-308.75" x2="202.04" y2="81.08" width="0" layer="19" extent="1-1"/>
+<wire x1="202.04" y1="81.08" x2="209" y2="76.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$39">
 <contactref element="11,2" pad="S2"/>
 <contactref element="D25" pad="A"/>
-<wire x1="-2.95" y1="-318.25" x2="221.04" y2="81.08" width="0" layer="19" extent="1-1"/>
+<wire x1="221.04" y1="81.08" x2="228" y2="76.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$40">
 <contactref element="12,2" pad="S2"/>
 <contactref element="D26" pad="A"/>
-<wire x1="-2.95" y1="-327.75" x2="240.04" y2="81.08" width="0" layer="19" extent="1-1"/>
+<wire x1="240.04" y1="81.08" x2="247" y2="76.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$41">
 <contactref element="13,2" pad="S2"/>
 <contactref element="D27" pad="A"/>
-<wire x1="-2.95" y1="-337.25" x2="259.04" y2="81.08" width="0" layer="19" extent="1-1"/>
+<wire x1="259.04" y1="81.08" x2="266" y2="76.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$42">
 <contactref element="1,3" pad="S2"/>
 <contactref element="D29" pad="A"/>
-<wire x1="28.665" y1="62.08" x2="-2.95" y2="-356.25" width="0" layer="19" extent="1-1"/>
+<wire x1="28.665" y1="62.08" x2="42.5" y2="56.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$43">
 <contactref element="2,3" pad="S2"/>
 <contactref element="D30" pad="A"/>
-<wire x1="54.79" y1="62.08" x2="-2.95" y2="-365.75" width="0" layer="19" extent="1-1"/>
+<wire x1="54.79" y1="62.08" x2="61.5" y2="56.8" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$44">
 <contactref element="3,3" pad="S2"/>
 <contactref element="D31" pad="A"/>
-<wire x1="73.79" y1="62.08" x2="-2.95" y2="-375.25" width="0" layer="19" extent="1-1"/>
+<wire x1="80.5" y1="56.8" x2="73.79" y2="62.08" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$45">
 <contactref element="4,3" pad="S2"/>
 <contactref element="D32" pad="A"/>
-<wire x1="92.79" y1="62.08" x2="-2.95" y2="-384.75" width="0" layer="19" extent="1-1"/>
+<wire x1="92.79" y1="62.08" x2="99.5" y2="56.8" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$46">
 <contactref element="5,3" pad="S2"/>
 <contactref element="D33" pad="A"/>
-<wire x1="111.79" y1="62.08" x2="-2.95" y2="-394.25" width="0" layer="19" extent="1-1"/>
+<wire x1="118.5" y1="56.8" x2="111.79" y2="62.08" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$47">
 <contactref element="6,3" pad="S2"/>
 <contactref element="D34" pad="A"/>
-<wire x1="130.79" y1="62.08" x2="-2.95" y2="-403.75" width="0" layer="19" extent="1-1"/>
+<wire x1="130.79" y1="62.08" x2="137.5" y2="56.8" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$48">
 <contactref element="7,3" pad="S2"/>
 <contactref element="D35" pad="A"/>
-<wire x1="149.79" y1="62.08" x2="-2.95" y2="-413.25" width="0" layer="19" extent="1-1"/>
+<wire x1="149.79" y1="62.08" x2="156.5" y2="56.8" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$49">
 <contactref element="8,3" pad="S2"/>
 <contactref element="D36" pad="A"/>
-<wire x1="168.79" y1="62.08" x2="-2.95" y2="-422.75" width="0" layer="19" extent="1-1"/>
+<wire x1="168.79" y1="62.08" x2="175.5" y2="56.8" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$50">
 <contactref element="9,3" pad="S2"/>
 <contactref element="D37" pad="A"/>
-<wire x1="187.79" y1="62.08" x2="-2.95" y2="-432.25" width="0" layer="19" extent="1-1"/>
+<wire x1="187.79" y1="62.08" x2="194.5" y2="56.8" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$51">
 <contactref element="10,3" pad="S2"/>
 <contactref element="D38" pad="A"/>
-<wire x1="206.79" y1="62.08" x2="-2.95" y2="-441.75" width="0" layer="19" extent="1-1"/>
+<wire x1="206.79" y1="62.08" x2="213.5" y2="56.8" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$52">
 <contactref element="11,3" pad="S2"/>
 <contactref element="D39" pad="A"/>
-<wire x1="225.79" y1="62.08" x2="-2.95" y2="-451.25" width="0" layer="19" extent="1-1"/>
+<wire x1="225.79" y1="62.08" x2="232.5" y2="56.8" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$53">
 <contactref element="12,3" pad="S2"/>
 <contactref element="D40" pad="A"/>
-<wire x1="244.79" y1="62.08" x2="-2.95" y2="-460.75" width="0" layer="19" extent="1-1"/>
+<wire x1="244.79" y1="62.08" x2="251.5" y2="56.8" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$54">
 <contactref element="13,3" pad="S2"/>
 <contactref element="D41" pad="A"/>
-<wire x1="-2.95" y1="-470.25" x2="275.665" y2="62.08" width="0" layer="19" extent="1-1"/>
+<wire x1="264" y1="56.8" x2="275.665" y2="62.08" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$55">
 <contactref element="14,2" pad="S2"/>
 <contactref element="D28" pad="A"/>
-<wire x1="-2.95" y1="-346.75" x2="282.79" y2="81.08" width="0" layer="19" extent="1-1"/>
+<wire x1="271" y1="76.3" x2="282.79" y2="81.08" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$56">
 <contactref element="1,4" pad="S2"/>
 <contactref element="D42" pad="A"/>
-<wire x1="33.415" y1="43.08" x2="-2.95" y2="-479.75" width="0" layer="19" extent="1-1"/>
+<wire x1="33.415" y1="43.08" x2="42.5" y2="37.8" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$57">
 <contactref element="2,4" pad="S2"/>
 <contactref element="D43" pad="A"/>
-<wire x1="64.29" y1="43.08" x2="-2.95" y2="-489.25" width="0" layer="19" extent="1-1"/>
+<wire x1="71" y1="37.3" x2="64.29" y2="43.08" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$58">
 <contactref element="3,4" pad="S2"/>
 <contactref element="D44" pad="A"/>
-<wire x1="83.29" y1="43.08" x2="-2.95" y2="-498.75" width="0" layer="19" extent="1-1"/>
+<wire x1="83.29" y1="43.08" x2="90" y2="37.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$59">
 <contactref element="4,4" pad="S2"/>
 <contactref element="D45" pad="A"/>
-<wire x1="-2.95" y1="-508.25" x2="102.29" y2="43.08" width="0" layer="19" extent="1-1"/>
+<wire x1="109" y1="37.3" x2="102.29" y2="43.08" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$60">
 <contactref element="5,4" pad="S2"/>
 <contactref element="D46" pad="A"/>
-<wire x1="-2.95" y1="-517.75" x2="121.29" y2="43.08" width="0" layer="19" extent="1-1"/>
+<wire x1="121.29" y1="43.08" x2="128.5" y2="37.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$61">
 <contactref element="6,4" pad="S2"/>
 <contactref element="D47" pad="A"/>
-<wire x1="-2.95" y1="-527.25" x2="140.29" y2="43.08" width="0" layer="19" extent="1-1"/>
+<wire x1="147" y1="37.3" x2="140.29" y2="43.08" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$62">
 <contactref element="7,4" pad="S2"/>
 <contactref element="D48" pad="A"/>
-<wire x1="-2.95" y1="-536.75" x2="159.29" y2="43.08" width="0" layer="19" extent="1-1"/>
+<wire x1="159.29" y1="43.08" x2="166" y2="37.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$63">
 <contactref element="8,4" pad="S2"/>
 <contactref element="D49" pad="A"/>
-<wire x1="-2.95" y1="-546.25" x2="178.29" y2="43.08" width="0" layer="19" extent="1-1"/>
+<wire x1="185" y1="37.3" x2="178.29" y2="43.08" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$64">
 <contactref element="9,4" pad="S2"/>
 <contactref element="D50" pad="A"/>
-<wire x1="-2.95" y1="-555.75" x2="197.29" y2="43.08" width="0" layer="19" extent="1-1"/>
+<wire x1="197.29" y1="43.08" x2="204" y2="37.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$65">
 <contactref element="10,4" pad="S2"/>
 <contactref element="D51" pad="A"/>
-<wire x1="-2.95" y1="-565.25" x2="216.29" y2="43.08" width="0" layer="19" extent="1-1"/>
+<wire x1="223" y1="37.3" x2="216.29" y2="43.08" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$66">
 <contactref element="11,4" pad="S2"/>
 <contactref element="D52" pad="A"/>
-<wire x1="-2.95" y1="-574.75" x2="235.29" y2="43.08" width="0" layer="19" extent="1-1"/>
+<wire x1="235.29" y1="43.08" x2="241.5" y2="37.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$67">
 <contactref element="12,4" pad="S2"/>
 <contactref element="D53" pad="A"/>
-<wire x1="-2.95" y1="-584.25" x2="270.915" y2="43.08" width="0" layer="19" extent="1-1"/>
+<wire x1="259" y1="36.8" x2="270.915" y2="43.08" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$69">
 <contactref element="1,5" pad="S2"/>
 <contactref element="D61" pad="A"/>
-<wire x1="23.915" y1="24.08" x2="-2.95" y2="-660.25" width="0" layer="19" extent="1-1"/>
+<wire x1="23.915" y1="24.08" x2="30" y2="20.8" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$70">
 <contactref element="2,5" pad="S2"/>
 <contactref element="D60" pad="A"/>
-<wire x1="47.665" y1="24.08" x2="-2.95" y2="-650.75" width="0" layer="19" extent="1-1"/>
+<wire x1="47.665" y1="24.08" x2="53" y2="20.8" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$71">
 <contactref element="3,5" pad="S2"/>
 <contactref element="D59" pad="A"/>
-<wire x1="71.415" y1="24.08" x2="-2.95" y2="-641.25" width="0" layer="19" extent="1-1"/>
+<wire x1="71.415" y1="24.08" x2="78" y2="20.8" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$72">
 <contactref element="4,5" pad="S2"/>
 <contactref element="D58" pad="A"/>
-<wire x1="142.665" y1="24.08" x2="-2.95" y2="-631.75" width="0" layer="19" extent="1-1"/>
+<wire x1="142.665" y1="24.08" x2="149" y2="20.8" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$73">
 <contactref element="5,5" pad="S2"/>
 <contactref element="D57" pad="A"/>
-<wire x1="-2.95" y1="-622.25" x2="213.915" y2="24.08" width="0" layer="19" extent="1-1"/>
+<wire x1="213.915" y1="24.08" x2="220" y2="20.8" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$74">
 <contactref element="6,5" pad="S2"/>
 <contactref element="D56" pad="A"/>
-<wire x1="-2.95" y1="-612.75" x2="237.665" y2="24.08" width="0" layer="19" extent="1-1"/>
+<wire x1="237.665" y1="24.08" x2="244" y2="20.8" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$75">
 <contactref element="7,5" pad="S2"/>
 <contactref element="D55" pad="A"/>
-<wire x1="-2.95" y1="-603.25" x2="261.415" y2="24.08" width="0" layer="19" extent="1-1"/>
+<wire x1="261.415" y1="24.08" x2="267" y2="20.8" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$76">
 <contactref element="8,5" pad="S2"/>
 <contactref element="D54" pad="A"/>
-<wire x1="-2.95" y1="-593.75" x2="285.165" y2="24.08" width="0" layer="19" extent="1-1"/>
+<wire x1="274" y1="20.8" x2="285.165" y2="24.08" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="ROW1">
 <contactref element="D1" pad="C"/>
@@ -2137,19 +2226,21 @@ design rules under a new name.</description>
 <contactref element="D12" pad="C"/>
 <contactref element="D13" pad="C"/>
 <contactref element="D14" pad="C"/>
-<wire x1="-6.55" y1="-204.25" x2="-6.55" y2="-213.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-194.75" x2="-6.55" y2="-204.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-185.25" x2="-6.55" y2="-194.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-175.75" x2="-6.55" y2="-185.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-166.25" x2="-6.55" y2="-175.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-156.75" x2="-6.55" y2="-166.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-147.25" x2="-6.55" y2="-156.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-137.75" x2="-6.55" y2="-147.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-128.25" x2="-6.55" y2="-137.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-118.75" x2="-6.55" y2="-128.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-109.25" x2="-6.55" y2="-118.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-99.75" x2="-6.55" y2="-109.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-90.25" x2="-6.55" y2="-99.75" width="0" layer="19" extent="1-1"/>
+<contactref element="U1" pad="8"/>
+<wire x1="142.5" y1="91.7" x2="161.5" y2="91.7" width="0" layer="19" extent="16-16"/>
+<wire x1="123.5" y1="91.7" x2="142.5" y2="91.7" width="0" layer="19" extent="16-16"/>
+<wire x1="104.5" y1="91.7" x2="123.5" y2="91.7" width="0" layer="19" extent="16-16"/>
+<wire x1="85.5" y1="91.7" x2="104.5" y2="91.7" width="0" layer="19" extent="16-16"/>
+<wire x1="66.5" y1="91.7" x2="85.5" y2="91.7" width="0" layer="19" extent="16-16"/>
+<wire x1="47.5" y1="91.7" x2="66.5" y2="91.7" width="0" layer="19" extent="16-16"/>
+<wire x1="28.5" y1="91.7" x2="47.5" y2="91.7" width="0" layer="19" extent="16-16"/>
+<wire x1="180.5" y1="91.7" x2="161.5" y2="91.7" width="0" layer="19" extent="16-16"/>
+<wire x1="199.5" y1="91.7" x2="180.5" y2="91.7" width="0" layer="19" extent="16-16"/>
+<wire x1="218.5" y1="91.7" x2="199.5" y2="91.7" width="0" layer="19" extent="16-16"/>
+<wire x1="237.5" y1="91.7" x2="218.5" y2="91.7" width="0" layer="19" extent="16-16"/>
+<wire x1="256.5" y1="91.7" x2="237.5" y2="91.7" width="0" layer="19" extent="16-16"/>
+<wire x1="266.5" y1="91.7" x2="256.5" y2="91.7" width="0" layer="19" extent="16-16"/>
+<wire x1="105.6002" y1="25.7404" x2="104.5" y2="91.7" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="ROW2">
 <contactref element="D15" pad="C"/>
@@ -2166,19 +2257,21 @@ design rules under a new name.</description>
 <contactref element="D26" pad="C"/>
 <contactref element="D27" pad="C"/>
 <contactref element="D28" pad="C"/>
-<wire x1="-6.55" y1="-232.75" x2="-6.55" y2="-242.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-223.25" x2="-6.55" y2="-232.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-251.75" x2="-6.55" y2="-242.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-261.25" x2="-6.55" y2="-251.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-270.75" x2="-6.55" y2="-261.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-280.25" x2="-6.55" y2="-270.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-289.75" x2="-6.55" y2="-280.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-299.25" x2="-6.55" y2="-289.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-308.75" x2="-6.55" y2="-299.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-318.25" x2="-6.55" y2="-308.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-327.75" x2="-6.55" y2="-318.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-337.25" x2="-6.55" y2="-327.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-346.75" x2="-6.55" y2="-337.25" width="0" layer="19" extent="1-1"/>
+<contactref element="U1" pad="9"/>
+<wire x1="152" y1="72.7" x2="171" y2="72.7" width="0" layer="19" extent="16-16"/>
+<wire x1="133" y1="72.7" x2="152" y2="72.7" width="0" layer="19" extent="16-16"/>
+<wire x1="114" y1="72.7" x2="133" y2="72.7" width="0" layer="19" extent="16-16"/>
+<wire x1="95" y1="72.7" x2="114" y2="72.7" width="0" layer="19" extent="16-16"/>
+<wire x1="76" y1="72.7" x2="95" y2="72.7" width="0" layer="19" extent="16-16"/>
+<wire x1="57" y1="72.7" x2="76" y2="72.7" width="0" layer="19" extent="16-16"/>
+<wire x1="38" y1="72.7" x2="57" y2="72.7" width="0" layer="19" extent="16-16"/>
+<wire x1="190" y1="72.7" x2="171" y2="72.7" width="0" layer="19" extent="16-16"/>
+<wire x1="209" y1="72.7" x2="190" y2="72.7" width="0" layer="19" extent="16-16"/>
+<wire x1="228" y1="72.7" x2="209" y2="72.7" width="0" layer="19" extent="16-16"/>
+<wire x1="247" y1="72.7" x2="228" y2="72.7" width="0" layer="19" extent="16-16"/>
+<wire x1="266" y1="72.7" x2="247" y2="72.7" width="0" layer="19" extent="16-16"/>
+<wire x1="271" y1="72.7" x2="266" y2="72.7" width="0" layer="19" extent="16-16"/>
+<wire x1="106.3876" y1="25.7404" x2="114" y2="72.7" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="ROW3">
 <contactref element="D29" pad="C"/>
@@ -2194,18 +2287,20 @@ design rules under a new name.</description>
 <contactref element="D39" pad="C"/>
 <contactref element="D40" pad="C"/>
 <contactref element="D41" pad="C"/>
-<wire x1="-6.55" y1="-460.75" x2="-6.55" y2="-470.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-451.25" x2="-6.55" y2="-460.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-441.75" x2="-6.55" y2="-451.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-432.25" x2="-6.55" y2="-441.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-422.75" x2="-6.55" y2="-432.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-413.25" x2="-6.55" y2="-422.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-403.75" x2="-6.55" y2="-413.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-394.25" x2="-6.55" y2="-403.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-384.75" x2="-6.55" y2="-394.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-375.25" x2="-6.55" y2="-384.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-365.75" x2="-6.55" y2="-375.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-356.25" x2="-6.55" y2="-365.75" width="0" layer="19" extent="1-1"/>
+<contactref element="U1" pad="10"/>
+<wire x1="175.5" y1="53.2" x2="194.5" y2="53.2" width="0" layer="19" extent="16-16"/>
+<wire x1="156.5" y1="53.2" x2="175.5" y2="53.2" width="0" layer="19" extent="16-16"/>
+<wire x1="137.5" y1="53.2" x2="156.5" y2="53.2" width="0" layer="19" extent="16-16"/>
+<wire x1="118.5" y1="53.2" x2="137.5" y2="53.2" width="0" layer="19" extent="16-16"/>
+<wire x1="99.5" y1="53.2" x2="118.5" y2="53.2" width="0" layer="19" extent="16-16"/>
+<wire x1="80.5" y1="53.2" x2="99.5" y2="53.2" width="0" layer="19" extent="16-16"/>
+<wire x1="61.5" y1="53.2" x2="80.5" y2="53.2" width="0" layer="19" extent="16-16"/>
+<wire x1="42.5" y1="52.7" x2="61.5" y2="53.2" width="0" layer="19" extent="16-16"/>
+<wire x1="213.5" y1="53.2" x2="194.5" y2="53.2" width="0" layer="19" extent="16-16"/>
+<wire x1="232.5" y1="53.2" x2="213.5" y2="53.2" width="0" layer="19" extent="16-16"/>
+<wire x1="251.5" y1="53.2" x2="232.5" y2="53.2" width="0" layer="19" extent="16-16"/>
+<wire x1="264" y1="53.2" x2="251.5" y2="53.2" width="0" layer="19" extent="16-16"/>
+<wire x1="107.2004" y1="25.7404" x2="99.5" y2="53.2" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="ROW4">
 <contactref element="D42" pad="C"/>
@@ -2220,17 +2315,19 @@ design rules under a new name.</description>
 <contactref element="D51" pad="C"/>
 <contactref element="D52" pad="C"/>
 <contactref element="D53" pad="C"/>
-<wire x1="-6.55" y1="-489.25" x2="-6.55" y2="-498.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-479.75" x2="-6.55" y2="-489.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-508.25" x2="-6.55" y2="-498.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-517.75" x2="-6.55" y2="-508.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-527.25" x2="-6.55" y2="-517.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-536.75" x2="-6.55" y2="-527.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-546.25" x2="-6.55" y2="-536.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-555.75" x2="-6.55" y2="-546.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-565.25" x2="-6.55" y2="-555.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-574.75" x2="-6.55" y2="-565.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-584.25" x2="-6.55" y2="-574.75" width="0" layer="19" extent="1-1"/>
+<contactref element="U1" pad="11"/>
+<wire x1="185" y1="33.7" x2="204" y2="33.7" width="0" layer="19" extent="16-16"/>
+<wire x1="166" y1="33.7" x2="185" y2="33.7" width="0" layer="19" extent="16-16"/>
+<wire x1="147" y1="33.7" x2="166" y2="33.7" width="0" layer="19" extent="16-16"/>
+<wire x1="128.5" y1="33.7" x2="147" y2="33.7" width="0" layer="19" extent="16-16"/>
+<wire x1="223" y1="33.7" x2="204" y2="33.7" width="0" layer="19" extent="16-16"/>
+<wire x1="241.5" y1="33.7" x2="223" y2="33.7" width="0" layer="19" extent="16-16"/>
+<wire x1="259" y1="33.2" x2="241.5" y2="33.7" width="0" layer="19" extent="16-16"/>
+<wire x1="109" y1="33.7" x2="128.5" y2="33.7" width="0" layer="19" extent="16-16"/>
+<wire x1="107.9878" y1="25.7404" x2="109" y2="33.7" width="0" layer="19" extent="16-16"/>
+<wire x1="90" y1="33.7" x2="109" y2="33.7" width="0" layer="19" extent="16-16"/>
+<wire x1="71" y1="33.7" x2="90" y2="33.7" width="0" layer="19" extent="16-16"/>
+<wire x1="42.5" y1="34.2" x2="71" y2="33.7" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="ROW5">
 <contactref element="D54" pad="C"/>
@@ -2241,41 +2338,249 @@ design rules under a new name.</description>
 <contactref element="D59" pad="C"/>
 <contactref element="D60" pad="C"/>
 <contactref element="D61" pad="C"/>
-<wire x1="-6.55" y1="-650.75" x2="-6.55" y2="-660.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-641.25" x2="-6.55" y2="-650.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-631.75" x2="-6.55" y2="-641.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-622.25" x2="-6.55" y2="-631.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-612.75" x2="-6.55" y2="-622.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-603.25" x2="-6.55" y2="-612.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.55" y1="-593.75" x2="-6.55" y2="-603.25" width="0" layer="19" extent="1-1"/>
+<contactref element="U1" pad="28"/>
+<wire x1="244" y1="17.2" x2="220" y2="17.2" width="0" layer="19" extent="16-16"/>
+<wire x1="267" y1="17.2" x2="244" y2="17.2" width="0" layer="19" extent="16-16"/>
+<wire x1="274" y1="17.2" x2="267" y2="17.2" width="0" layer="19" extent="16-16"/>
+<wire x1="149" y1="17.2" x2="220" y2="17.2" width="0" layer="19" extent="16-16"/>
+<wire x1="104" y1="14.2596" x2="149" y2="17.2" width="0" layer="19" extent="16-16"/>
+<wire x1="78" y1="17.2" x2="104" y2="14.2596" width="0" layer="19" extent="16-16"/>
+<wire x1="53" y1="17.2" x2="78" y2="17.2" width="0" layer="19" extent="16-16"/>
+<wire x1="30" y1="17.2" x2="53" y2="17.2" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="GND">
-<contactref element="D62" pad="2"/>
+<contactref element="C1" pad="1"/>
+<contactref element="C2" pad="1"/>
 <contactref element="Y1" pad="2"/>
 <contactref element="Y1" pad="4"/>
-<wire x1="-22.9" y1="-654.4" x2="-24.6" y2="-656.6" width="0" layer="19" extent="1-1"/>
-<wire x1="-15.425" y1="-655.5" x2="-22.9" y2="-654.4" width="0" layer="19" extent="1-1"/>
+<contactref element="J1" pad="4"/>
+<contactref element="C3" pad="2"/>
+<contactref element="S1" pad="C"/>
+<contactref element="S1" pad="D"/>
+<contactref element="R1" pad="2"/>
+<contactref element="U1" pad="5"/>
+<contactref element="U1" pad="43"/>
+<contactref element="U1" pad="35"/>
+<contactref element="U1" pad="23"/>
+<contactref element="U1" pad="15"/>
+<contactref element="D62" pad="2"/>
+<wire x1="127.875" y1="19" x2="127.875" y2="25" width="0.25" layer="16"/>
+<contactref element="C4" pad="1"/>
+<contactref element="C5" pad="1"/>
+<contactref element="C6" pad="1"/>
+<contactref element="C7" pad="1"/>
+<wire x1="96" y1="24.137" x2="96.9366" y2="23.2004" width="0.3048" layer="16"/>
+<wire x1="96.9366" y1="23.2004" x2="98.2596" y2="23.2004" width="0.3048" layer="16"/>
+<wire x1="98.2596" y1="16.7996" x2="95.8496" y2="16.7996" width="0.3048" layer="16"/>
+<wire x1="95.8496" y1="16.7996" x2="95.5" y2="16.45" width="0.3048" layer="16"/>
+<wire x1="109.95" y1="11.5" x2="107.9878" y2="13.4622" width="0.3048" layer="16"/>
+<wire x1="107.9878" y1="13.4622" x2="107.9878" y2="14.2596" width="0.3048" layer="16"/>
+<wire x1="113.5" y1="24.05" x2="113.5" y2="22.5" width="0.3048" layer="16"/>
+<wire x1="113.5" y1="22.5" x2="112.6002" y2="21.6002" width="0.3048" layer="16"/>
+<wire x1="112.6002" y1="21.6002" x2="109.7404" y2="21.6002" width="0.3048" layer="16"/>
+<wire x1="102.85" y1="29" x2="103.2126" y2="28.6374" width="0.3048" layer="16"/>
+<wire x1="103.2126" y1="28.6374" x2="103.2126" y2="25.7404" width="0.3048" layer="16"/>
+<wire x1="117.6" y1="21.35" x2="127.875" y2="19" width="0" layer="19" extent="16-16"/>
+<wire x1="117.4" y1="23.5" x2="117.6" y2="21.35" width="0" layer="19" extent="16-16"/>
+<wire x1="115.4" y1="19.65" x2="117.6" y2="21.35" width="0" layer="19" extent="16-16"/>
+<wire x1="117.4" y1="17.5" x2="115.4" y2="19.65" width="0" layer="19" extent="16-16"/>
+<wire x1="113.5" y1="24.05" x2="117.4" y2="23.5" width="0" layer="19" extent="16-16"/>
+<wire x1="107.9878" y1="14.2596" x2="109.7404" y2="21.6002" width="0" layer="19" extent="16-16"/>
+<wire x1="105.478" y1="11.5" x2="107.9878" y2="14.2596" width="0" layer="19" extent="16-16"/>
+<wire x1="103.2126" y1="25.7404" x2="109.7404" y2="21.6002" width="0" layer="19" extent="16-16"/>
+<wire x1="98.2596" y1="23.2004" x2="103.2126" y2="25.7404" width="0" layer="19" extent="16-16"/>
+<wire x1="92.175" y1="29" x2="96" y2="24.137" width="0" layer="19" extent="16-16"/>
+<wire x1="98.2596" y1="16.7996" x2="98.2596" y2="23.2004" width="0" layer="19" extent="16-16"/>
+<wire x1="84.75" y1="29.75" x2="92.175" y2="29" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="VBUS">
 <contactref element="D62" pad="5"/>
+<contactref element="J1" pad="1"/>
+<contactref element="R5" pad="1"/>
+<wire x1="84.75" y1="26.75" x2="88.285" y2="26.75" width="0.3048" layer="16"/>
+<wire x1="88.285" y1="26.75" x2="89.535" y2="25.5" width="0.3048" layer="16"/>
+<wire x1="89.535" y1="25.5" x2="91" y2="26.965" width="0.3048" layer="16"/>
+<wire x1="91" y1="26.965" x2="91" y2="28.5" width="0.3048" layer="16"/>
+<wire x1="91" y1="28.5" x2="90.5" y2="29" width="0.3048" layer="16"/>
+<wire x1="90.5" y1="29" x2="89.825" y2="29" width="0.3048" layer="16"/>
 </signal>
-<signal name="VCC_2">
-<contactref element="U1" pad="14"/>
+<signal name="XTAL1">
+<contactref element="C1" pad="2"/>
+<contactref element="Y1" pad="1"/>
+<contactref element="U1" pad="17"/>
+<wire x1="115.6" y1="17.5" x2="117.6" y2="19.5" width="0.25" layer="16"/>
+<wire x1="117.6" y1="19.5" x2="117.6" y2="19.65" width="0.25" layer="16"/>
+<wire x1="115.6" y1="17.5" x2="113.1" y2="20" width="0.25" layer="16"/>
+<wire x1="113.1" y1="20" x2="109.7404" y2="20" width="0.25" layer="16"/>
 </signal>
-<signal name="VCC">
-<contactref element="U1" pad="34"/>
+<signal name="XTAL2">
+<contactref element="Y1" pad="3"/>
+<contactref element="C2" pad="2"/>
+<contactref element="U1" pad="16"/>
+<wire x1="115.6" y1="23.5" x2="115.6" y2="21.55" width="0.25" layer="16"/>
+<wire x1="115.6" y1="21.55" x2="115.4" y2="21.35" width="0.25" layer="16"/>
+<wire x1="115.6" y1="23.5" x2="112.8874" y2="20.7874" width="0.25" layer="16"/>
+<wire x1="112.8874" y1="20.7874" x2="109.7404" y2="20.7874" width="0.25" layer="16"/>
 </signal>
-<signal name="UVCC">
-<contactref element="U1" pad="2"/>
+<signal name="D-">
+<contactref element="J1" pad="2"/>
+<contactref element="R3" pad="1"/>
+<contactref element="D62" pad="4"/>
+<contactref element="D62" pad="3"/>
+<wire x1="92.175" y1="28.05" x2="96.015" y2="28.05" width="0.3048" layer="16"/>
+<wire x1="96.015" y1="28.05" x2="96.065" y2="28" width="0.3048" layer="16"/>
+<wire x1="84.75" y1="27.75" x2="86.75" y2="27.75" width="0.254" layer="16"/>
+<wire x1="87.05" y1="28.05" x2="89.825" y2="28.05" width="0.254" layer="16"/>
+<wire x1="86.75" y1="27.75" x2="87.05" y2="28.05" width="0.254" layer="16"/>
+<wire x1="89.825" y1="28.05" x2="92.175" y2="28.05" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="AVCC_2">
-<contactref element="U1" pad="24"/>
+<signal name="D+">
+<contactref element="J1" pad="3"/>
+<contactref element="R4" pad="1"/>
+<contactref element="D62" pad="1"/>
+<contactref element="D62" pad="6"/>
+<wire x1="92.175" y1="29.95" x2="92.725" y2="30.5" width="0.3048" layer="16"/>
+<wire x1="92.725" y1="30.5" x2="96.065" y2="30.5" width="0.3048" layer="16"/>
+<wire x1="89.825" y1="29.95" x2="87.95" y2="29.95" width="0.254" layer="16"/>
+<wire x1="86.75" y1="28.75" x2="84.75" y2="28.75" width="0.254" layer="16"/>
+<wire x1="87.95" y1="29.95" x2="86.75" y2="28.75" width="0.254" layer="16"/>
+<wire x1="89.825" y1="29.95" x2="92.175" y2="29.95" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="AVCC">
-<contactref element="U1" pad="44"/>
+<signal name="COL9">
+<contactref element="U1" pad="26"/>
+<contactref element="9,4" pad="S1"/>
+<contactref element="9,1" pad="S1"/>
+<contactref element="9,2" pad="S1"/>
+<contactref element="9,3" pad="S1"/>
+<wire x1="181.44" y1="59.54" x2="176.69" y2="78.54" width="0" layer="19" extent="1-1"/>
+<wire x1="190.94" y1="40.54" x2="181.44" y2="59.54" width="0" layer="19" extent="1-1"/>
+<wire x1="167.19" y1="97.54" x2="176.69" y2="78.54" width="0" layer="19" extent="1-1"/>
+<wire x1="105.6002" y1="14.2596" x2="181.44" y2="59.54" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="UCAP">
+<signal name="COL10">
+<contactref element="U1" pad="27"/>
+<contactref element="10,2" pad="S1"/>
+<contactref element="10,4" pad="S1"/>
+<contactref element="10,1" pad="S1"/>
+<contactref element="10,3" pad="S1"/>
+<wire x1="200.44" y1="59.54" x2="209.94" y2="40.54" width="0" layer="19" extent="1-1"/>
+<wire x1="195.69" y1="78.54" x2="200.44" y2="59.54" width="0" layer="19" extent="1-1"/>
+<wire x1="186.19" y1="97.54" x2="195.69" y2="78.54" width="0" layer="19" extent="1-1"/>
+<wire x1="104.7874" y1="14.2596" x2="200.44" y2="59.54" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="COL11">
+<contactref element="U1" pad="29"/>
+<contactref element="11,2" pad="S1"/>
+<contactref element="11,4" pad="S1"/>
+<contactref element="11,3" pad="S1"/>
+<contactref element="11,1" pad="S1"/>
+<wire x1="219.44" y1="59.54" x2="103.2126" y2="14.2596" width="0" layer="19" extent="16-16"/>
+<wire x1="214.69" y1="78.54" x2="219.44" y2="59.54" width="0" layer="19" extent="1-1"/>
+<wire x1="205.19" y1="97.54" x2="214.69" y2="78.54" width="0" layer="19" extent="1-1"/>
+<wire x1="228.94" y1="40.54" x2="219.44" y2="59.54" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="COL12">
+<contactref element="U1" pad="30"/>
+<contactref element="12,1" pad="S1"/>
+<contactref element="12,4" pad="S1"/>
+<contactref element="12,2" pad="S1"/>
+<contactref element="12,3" pad="S1"/>
+<wire x1="238.44" y1="59.54" x2="102.3998" y2="14.2596" width="0" layer="19" extent="16-16"/>
+<wire x1="233.69" y1="78.54" x2="238.44" y2="59.54" width="0" layer="19" extent="1-1"/>
+<wire x1="224.19" y1="97.54" x2="233.69" y2="78.54" width="0" layer="19" extent="1-1"/>
+<wire x1="264.565" y1="40.54" x2="238.44" y2="59.54" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="COL13">
+<contactref element="U1" pad="12"/>
+<contactref element="13,1" pad="S1"/>
+<contactref element="13,3" pad="S1"/>
+<contactref element="13,2" pad="S1"/>
+<wire x1="243.19" y1="97.54" x2="109.7404" y2="23.9878" width="0" layer="19" extent="16-16"/>
+<wire x1="252.69" y1="78.54" x2="243.19" y2="97.54" width="0" layer="19" extent="1-1"/>
+<wire x1="269.315" y1="59.54" x2="252.69" y2="78.54" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="COL14">
+<contactref element="U1" pad="39"/>
+<contactref element="14,2" pad="S1"/>
+<contactref element="14,1" pad="S1"/>
+<wire x1="276.44" y1="78.54" x2="98.2596" y2="20" width="0" layer="19" extent="16-16"/>
+<wire x1="271.69" y1="97.54" x2="276.44" y2="78.54" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$3">
+<contactref element="C3" pad="1"/>
 <contactref element="U1" pad="6"/>
+<wire x1="104" y1="25.7404" x2="104" y2="28.35" width="0.3048" layer="16"/>
+<wire x1="104" y1="28.35" x2="104.65" y2="29" width="0.3048" layer="16"/>
+</signal>
+<signal name="RESET">
+<contactref element="S1" pad="A"/>
+<contactref element="S1" pad="B"/>
+<contactref element="R2" pad="1"/>
+<contactref element="U1" pad="13"/>
+<wire x1="120.5" y1="25.228" x2="123.897" y2="25.228" width="0.25" layer="16"/>
+<wire x1="123.897" y1="25.228" x2="124.125" y2="25" width="0.25" layer="16"/>
+<wire x1="124.125" y1="19" x2="124.125" y2="25" width="0.25" layer="16"/>
+<wire x1="109.7404" y1="23.2004" x2="111.2004" y2="23.2004" width="0.254" layer="16"/>
+<wire x1="111.2004" y1="23.2004" x2="111.5" y2="23.5" width="0.254" layer="16"/>
+<wire x1="111.5" y1="23.5" x2="111.5" y2="26.5" width="0.254" layer="16"/>
+<wire x1="111.5" y1="26.5" x2="112.5" y2="27.5" width="0.254" layer="16"/>
+<wire x1="118.228" y1="27.5" x2="120.5" y2="25.228" width="0.254" layer="16"/>
+<wire x1="112.5" y1="27.5" x2="118.228" y2="27.5" width="0.254" layer="16"/>
+</signal>
+<signal name="N$4">
+<contactref element="U1" pad="33"/>
+<contactref element="R1" pad="1"/>
+<wire x1="103.522" y1="11.5" x2="100.0122" y2="14.2596" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="+5V">
+<contactref element="R2" pad="2"/>
+<contactref element="R5" pad="2"/>
+<contactref element="U1" pad="44"/>
+<contactref element="U1" pad="24"/>
+<contactref element="U1" pad="2"/>
+<contactref element="U1" pad="34"/>
+<contactref element="U1" pad="14"/>
+<contactref element="U1" pad="7"/>
+<contactref element="C5" pad="2"/>
+<contactref element="C6" pad="2"/>
+<contactref element="C7" pad="2"/>
+<contactref element="C4" pad="2"/>
+<wire x1="98.2596" y1="23.9878" x2="96.3844" y2="25.863" width="0.3048" layer="16"/>
+<wire x1="96.3844" y1="25.863" x2="96" y2="25.863" width="0.3048" layer="16"/>
+<wire x1="98.2596" y1="23.9878" x2="99.9878" y2="23.9878" width="0.3048" layer="16"/>
+<wire x1="100.7996" y1="24.7996" x2="100.7996" y2="25.7404" width="0.3048" layer="16"/>
+<wire x1="99.9878" y1="23.9878" x2="100.7996" y2="24.7996" width="0.3048" layer="16"/>
+<wire x1="95.5" y1="14.55" x2="96.7974" y2="14.55" width="0.3048" layer="16"/>
+<wire x1="96.7974" y1="14.55" x2="98.2596" y2="16.0122" width="0.3048" layer="16"/>
+<wire x1="108.05" y1="11.5" x2="107.2004" y2="12.3496" width="0.3048" layer="16"/>
+<wire x1="107.2004" y1="12.3496" x2="107.2004" y2="14.2596" width="0.3048" layer="16"/>
+<wire x1="109.7404" y1="22.3876" x2="111.8876" y2="22.3876" width="0.3048" layer="16"/>
+<wire x1="111.8876" y1="22.3876" x2="112" y2="22.5" width="0.3048" layer="16"/>
+<wire x1="112" y1="22.5" x2="112" y2="25" width="0.3048" layer="16"/>
+<wire x1="112" y1="25" x2="112.95" y2="25.95" width="0.3048" layer="16"/>
+<wire x1="112.95" y1="25.95" x2="113.5" y2="25.95" width="0.3048" layer="16"/>
+<wire x1="113.5" y1="25.95" x2="117.822" y2="25.95" width="0.3048" layer="16"/>
+<wire x1="117.822" y1="25.95" x2="120.5" y2="23.272" width="0.3048" layer="16"/>
+<wire x1="92.54" y1="25.5" x2="95.637" y2="25.5" width="0.3048" layer="16"/>
+<wire x1="95.637" y1="25.5" x2="96" y2="25.863" width="0.3048" layer="16"/>
+<wire x1="100.7996" y1="25.7404" x2="104.7874" y2="25.7404" width="0" layer="19" extent="16-16"/>
+<wire x1="109.7404" y1="22.3876" x2="104.7874" y2="25.7404" width="0" layer="19" extent="16-16"/>
+<wire x1="98.2596" y1="16.0122" x2="98.2596" y2="23.9878" width="0" layer="19" extent="16-16"/>
+<wire x1="107.2004" y1="14.2596" x2="109.7404" y2="22.3876" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="MCU_D-">
+<contactref element="R3" pad="2"/>
+<contactref element="U1" pad="3"/>
+<wire x1="101.6124" y1="25.7404" x2="101.6124" y2="26.8876" width="0.254" layer="16"/>
+<wire x1="101.6124" y1="26.8876" x2="100.5" y2="28" width="0.254" layer="16"/>
+<wire x1="100.5" y1="28" x2="97.935" y2="28" width="0.254" layer="16"/>
+</signal>
+<signal name="MCU_D+">
+<contactref element="R4" pad="2"/>
+<contactref element="U1" pad="4"/>
+<wire x1="102.3998" y1="25.7404" x2="102.3998" y2="27.1002" width="0.254" layer="16"/>
+<wire x1="102.3998" y1="27.1002" x2="99" y2="30.5" width="0.254" layer="16"/>
+<wire x1="99" y1="30.5" x2="97.935" y2="30.5" width="0.254" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
