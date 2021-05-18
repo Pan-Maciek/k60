@@ -3,7 +3,7 @@
 #include <HID.h>
 #include "Descriptor.h"
 #include "Const.h"
-
+#include "Layout.h"
 
 
 // the struct we send to the PC, a global instance. Adapted to BIOS standard.
