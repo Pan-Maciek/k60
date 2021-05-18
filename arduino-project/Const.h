@@ -1,0 +1,9 @@
+
+#define L_CTRL  0b00000001
+#define L_SHIFT 0b00000010
+#define L_ALT   0b00000100
+#define L_GUI   0b00001000
+#define R_CTRL  0b00010000
+#define R_SHIFT 0b00100000
+#define R_ALT   0b01000000
+#define R_GUI   0b10000000
