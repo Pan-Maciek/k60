@@ -1,4 +1,4 @@
-const uint8_t hidDescriptor[] PROGMEM = {
+const uint8_t hidReportDescriptor[] PROGMEM = {
 
     //  Keyboard
     0x05, 0x01,                    // USAGE_PAGE (Generic Desktop)  // 47

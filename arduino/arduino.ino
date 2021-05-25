@@ -1,15 +1,15 @@
 
 
-#include <HID.h>
-#include "Descriptor.h"
+#include "Hid.h"
 #include "Const.h"
 #include "Layout.h"
 
 #define ROWS 2
 #define COLS 2
 
+Hid HID;
 
-// the struct we send to the PC, a global instance. Adapted to BIOS standard.
+
 struct KeyReport {
   uint8_t modifiers;
   uint8_t padding;
@@ -17,73 +17,78 @@ struct KeyReport {
 } report;
 
 
-// this function sets the report key...
-void keyPress(char c) {
+uint8_t keyPressed[ROWS][COLS];
+uint8_t cols[COLS] = {15, 16};
+uint8_t rows[ROWS] = {2, 3};
+uint8_t layer = 0;
+
+
+void switchLayer() {
+  layer = (layer+1) % 2;
+  Serial.println(layer);
+}
+
+void (*macroTable[3])();
+
+void pressKey(uint8_t row, uint8_t col) {
   
-  report.key[0] = c;
-  HID().SendReport(2, &report, sizeof(KeyReport));
+  if (layout[layer][row][col] & 128) {
+    uint8_t offset = layout[layer][row][col] & 127;
+    Serial.println(offset);
+    (*macroTable[offset])();
+    return;
+  }
+  
+  for (uint8_t i = 0; i < 6; i++) {
+    
+    if (report.key[i] == 0) {
+      keyPressed[row][col] = i+1;  // 0 signifies no pressed key, hence +1 offset
+      report.key[i] = layout[layer][row][col];
+      HID.SendReport(2, &report, sizeof(KeyReport));
+      return;
+      
+    }
+  }
+  
 }
 
-// ...and this one unsets it
-void keyRelease() {
-  report.key[0] = 0;
-  report.modifiers = 0;
-  HID().SendReport(2, &report, sizeof(KeyReport));
+void releaseKey(uint8_t row, uint8_t col) {
+  if (keyPressed[row][col] != 0) {
+    report.key[keyPressed[row][col]-1] = 0;
+    keyPressed[row][col] = 0;
+    HID.SendReport(2, &report, sizeof(KeyReport));
+  }
 }
 
-
-bool keyPressed[ROWS][COLS] = {false, false, false, false};
-int cols[COLS] = {15, 16};
-int rows[ROWS] = {2, 3};
 
 void setup() {
-  static HIDSubDescriptor node(hidDescriptor, sizeof(hidDescriptor));
-  HID().AppendDescriptor(&node);
+
+  Serial.begin(9600);
+
+  macroTable[0] = switchLayer;
+  Serial.println((int) macroTable[0]);
+  
   pinMode(15, OUTPUT);
   pinMode(16, OUTPUT);
   pinMode(2, INPUT);
   pinMode(3, INPUT);
 }
 
-//bool pressed = false;
-//bool pressed2 = false;
+void loop() {  
 
-void loop() {
-
-//  digitalWrite(15, HIGH);
-//  if (digitalRead(3) == HIGH && !pressed) {
-//    pressed = true;
-//    keyPress(0x04);
-//  }
-//  else if (digitalRead(3) == LOW && pressed) {
-//    pressed = false;
-//    keyRelease();
-//  }
-//  if (digitalRead(4) == HIGH && !pressed2) {
-//    pressed2 = true;
-//    keyPress(0x05);
-//  }
-//  else if (digitalRead(4) == LOW && pressed2) {
-//    pressed2 = false;
-//    keyRelease();
-//  }
-
-  
-  
-
-  for (int col = 0; col < COLS; col++) {
+  for (uint8_t col = 0; col < COLS; col++) {
+    
     digitalWrite(cols[col], HIGH);
-    for (int row = 0; row < ROWS; row++) {
-      if (digitalRead(rows[row]) == HIGH && !keyPressed[row][col]) {
-        keyPress(0x04 + row + col*2);
-        keyPressed[row][col] = true;
-      }
-      else if (digitalRead(rows[row]) == LOW && keyPressed[row][col]) {
-        keyRelease();
-        keyPressed[row][col] = false;
-      }
+    
+    for (uint8_t row = 0; row < ROWS; row++) {
+      if (digitalRead(rows[row]) == HIGH && !keyPressed[row][col])
+        pressKey(row, col);
+      else if (digitalRead(rows[row]) == LOW && keyPressed[row][col])
+        releaseKey(row, col);
     }
+    
     digitalWrite(cols[col], LOW);
   }
   delay(10);
+  
 }
