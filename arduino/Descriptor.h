@@ -16,7 +16,7 @@ const uint8_t hidDescriptor[] PROGMEM = {
     0x95, 0x08,                    //   REPORT_COUNT (8)
     0x81, 0x02,                    //   INPUT (Data,Var,Abs)
 
-    // paddding
+    // padding
     0x95, 0x01,                    //   REPORT_COUNT (1)
     0x75, 0x08,                    //   REPORT_SIZE (8)
     0x81, 0x03,                    //   INPUT (Cnst,Var,Abs)
