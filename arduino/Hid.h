@@ -1,3 +1,4 @@
+
 #include <PluggableUSB.h>
 #include "Descriptor.h"
 
@@ -8,6 +9,7 @@
 #define HID_REPORT_DESCRIPTOR_TYPE   0x22
 #define HID_REPORT_PROTOCOL 1
 #define HID_SUBCLASS_NONE 0
+
 
 struct Hid : PluggableUSBModule {
     Hid();
@@ -25,9 +27,11 @@ struct Hid : PluggableUSBModule {
     uint8_t getShortName(char* name);
 };
 
+
 Hid::Hid() : PluggableUSBModule(1, 1, (uint8_t*) &endpointType) {
     PluggableUSB().plug(this);
 }
+
 
 bool Hid::setup(USBSetup &setup) {
     if (pluggedInterface != setup.wIndex)

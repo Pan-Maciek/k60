@@ -1,5 +1,4 @@
 
-
 #include "Hid.h"
 #include "Const.h"
 #include "Layout.h"
@@ -23,19 +22,59 @@ uint8_t rows[ROWS] = {2, 3};
 uint8_t layer = 0;
 
 
-void switchLayer() {
-  layer = (layer+1) % 2;
-  Serial.println(layer);
+void writeString(char* msg) {
+  report.modifiers = 0;
+  for (int i = 0; i < 6; i++) report.key[i] = 0;
+
+  while (*msg) {
+    char c = *msg;
+    if ('a' <= c && c <= 'z') {
+      report.key[0] = (c-'a') + 0x04;
+      HID.SendReport(2, &report, sizeof(KeyReport));
+    }
+    else if ('A' <= c && c <= 'Z') {
+      report.key[0] = (c-'A') + 0x04;
+      report.modifiers |= L_SHIFT;
+      HID.SendReport(2, &report, sizeof(KeyReport));
+    }
+
+    report.modifiers = 0;
+    report.key[0] = 0;
+    HID.SendReport(2, &report, sizeof(KeyReport));
+
+    msg++;
+  }
 }
 
-void (*macroTable[3])();
+void pressMacro(uint8_t id) {
+  switch(id) {
+    case 0:
+      report.modifiers |= L_SHIFT;
+      // layer = 1;
+      break;
+    case 1:
+      writeString("HelloWorld");
+      break;
+  }
+}
+
+void releaseMacro(uint8_t id) {
+  switch(id) {
+    case 0:
+      report.modifiers &= ~L_SHIFT;
+      // layer = 0;
+      break;
+  }
+  
+}
 
 void pressKey(uint8_t row, uint8_t col) {
   
   if (layout[layer][row][col] & 128) {
-    uint8_t offset = layout[layer][row][col] & 127;
-    Serial.println(offset);
-    (*macroTable[offset])();
+    uint8_t id = layout[layer][row][col] & 127;
+    Serial.println("Hello");
+    keyPressed[row][col] = layout[layer][row][col];
+    pressMacro(id);
     return;
   }
   
@@ -53,11 +92,17 @@ void pressKey(uint8_t row, uint8_t col) {
 }
 
 void releaseKey(uint8_t row, uint8_t col) {
-  if (keyPressed[row][col] != 0) {
-    report.key[keyPressed[row][col]-1] = 0;
-    keyPressed[row][col] = 0;
-    HID.SendReport(2, &report, sizeof(KeyReport));
+
+  if (keyPressed[row][col] & 128) {
+    uint8_t id = keyPressed[row][col] & 127;
+    releaseMacro(id);
   }
+  else if (keyPressed[row][col] != 0) {
+    report.key[keyPressed[row][col]-1] = 0;
+  }
+
+  keyPressed[row][col] = 0;
+  HID.SendReport(2, &report, sizeof(KeyReport));
 }
 
 
@@ -65,8 +110,8 @@ void setup() {
 
   Serial.begin(9600);
 
-  macroTable[0] = switchLayer;
-  Serial.println((int) macroTable[0]);
+//  macroTable[0] = switchLayer;
+//  Serial.println((int) macroTable[0]);
   
   pinMode(15, OUTPUT);
   pinMode(16, OUTPUT);
@@ -74,7 +119,7 @@ void setup() {
   pinMode(3, INPUT);
 }
 
-void loop() {  
+void loop() {
 
   for (uint8_t col = 0; col < COLS; col++) {
     
